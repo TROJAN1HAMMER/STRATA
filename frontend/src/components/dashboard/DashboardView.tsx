@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import {
   Activity,
   Layers,
@@ -25,8 +25,14 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
   resultsMap,
 }) => {
   const [selectedNode, setSelectedNode] = useState<Infrastructure | null>(
-    infrastructures[0] || null
+    infrastructures.length > 0 ? infrastructures[0] : null
   )
+
+  useEffect(() => {
+    if (!selectedNode && infrastructures.length > 0) {
+      setSelectedNode(infrastructures[0])
+    }
+  }, [infrastructures, selectedNode])
 
   // Aggregations
   const totalAssets = infrastructures.length
@@ -283,10 +289,14 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
             <line x1="680" y1="130" x2="800" y2="230" stroke="rgba(255, 255, 255, 0.08)" strokeWidth="1" />
 
             {/* Render Asset Nodes */}
-            {nodeLayouts.map((nl) => {
-              const infra = infrastructures.find((i) => i.id === nl.id) || infrastructures[0]
+            {nodeLayouts.map((nl, idx) => {
+              const infra =
+                infrastructures.find((i) => i.id === nl.id) ||
+                (infrastructures.length > 0 ? infrastructures[idx % infrastructures.length] : null)
+              if (!infra) return null
+
               const res = resultsMap[infra.id]
-              const state = res?.risk_characterization.evidence_state || 'BASELINE'
+              const state = res?.risk_characterization?.evidence_state || res?.risk_characterization?.characterization_state || 'BASELINE'
               const isSelected = selectedNode?.id === infra.id
 
               let nodeColor = 'var(--state-baseline)'

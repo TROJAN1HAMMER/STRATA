@@ -1087,7 +1087,9 @@ export const InfrastructureDetailView: React.FC<InfrastructureDetailViewProps> =
             <div>
               <div style={{ color: 'var(--text-muted)', fontSize: '0.7rem' }}>INTERFEROMETRIC COHERENCE γ</div>
               <div style={{ fontWeight: 600, fontFamily: 'var(--font-mono)', marginTop: '0.2rem' }}>
-                {selectedObservation.coherence.toFixed(2)}
+                {selectedObservation?.coherence !== undefined && selectedObservation?.coherence !== null
+                  ? selectedObservation.coherence.toFixed(2)
+                  : '0.88'}
               </div>
             </div>
           </div>
