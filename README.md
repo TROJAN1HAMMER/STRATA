@@ -363,7 +363,11 @@ STRATA guarantees analytical auditability by maintaining an immutable SHA-256 ev
 * **Canonical JSON Serialization**: Eliminates floating-point whitespace and key-order nondeterminism (`sort_keys=True`, float precision locked to 6 decimal places).
 * **Hash Chaining**: Each record calculates:
 
-$$\text{current\_hash} = \text{SHA256}(\text{previous\_hash} \,||\, \text{canonical\_payload\_hash})$$
+```text
+current_hash = SHA256(previous_hash || canonical_payload_hash)
+```
+
+$$h_i = \operatorname{SHA-256}(h_{i-1} \parallel h_{\text{payload}, i})$$
 
 * **Tamper Detection**: **10 / 10** simulated adversarial tamper vectors (record deletion, retroactive displacement alteration, hash insertion, timestamp modification) are detected and rejected.
 * **Integrity Limitation**: The hash chain provides cryptographic tamper evidence; it does not replace off-site cold storage or prevent a root database administrator from recomputing an entire chain from genesis.
