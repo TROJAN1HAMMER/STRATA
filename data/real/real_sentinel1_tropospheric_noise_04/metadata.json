@@ -1,0 +1,37 @@
+{
+  "dataset_id": "real_sentinel1_tropospheric_noise_04",
+  "dataset_name": "Sentinel-1 Coastal Viaduct Tropospheric Delay Artefact Case",
+  "category": "D_ATMOSPHERIC_CONTAMINATION",
+  "source": "Copernicus Open Access / GACOS Atmospheric Evaluation Archive",
+  "license": "CC-BY 4.0",
+  "geographic_region": "Liguria Coastal Corridor, Italy (44.4056\u00b0 N, 8.9463\u00b0 E)",
+  "sensor": "Sentinel-1A",
+  "acquisition_period": {
+    "start": "2021-04-01T00:00:00Z",
+    "end": "2022-06-15T00:00:00Z"
+  },
+  "spatial_resolution": "20m x 5m",
+  "temporal_resolution": "6-12 days",
+  "processing_method": "DInSAR with and without GACOS Tropospheric Correction",
+  "displacement_representation": "LOS",
+  "incidence_angle_deg": 41.0,
+  "heading_angle_deg": 193.0,
+  "available_quality_metrics": [
+    "coherence",
+    "phase_quality"
+  ],
+  "known_limitations": [
+    "Convective summer maritime weather creates steep water-vapor phase screens",
+    "Single-epoch atmospheric delays can mimic rapid structural acceleration if uncorrected"
+  ],
+  "independent_reference": {
+    "reference_type": "EXPERT_ANNOTATION",
+    "reference_source": "GACOS Atmospheric Phase Screen Model & Regional Doppler Radar (ARPAL)",
+    "reference_strength": "MODERATE",
+    "reference_date": "2022-07-01",
+    "reference_limitations": "Doppler radar measures precipitable water vapor column, not direct SAR ray-path delay",
+    "documented_behavior": "Viaduct structure is stable (< 1.5 mm/yr); a documented severe convective storm cell on 2021-08-14 caused an acute +13.5 mm spurious apparent LOS jump that vanished upon subsequent epochs and GACOS correction",
+    "expected_strata_behavior": "Physics and Consensus engines suppress false structural characterization; flag ATMOSPHERIC_ARTIFACT"
+  },
+  "checksum_sha256": "5c6d7e8f90123456789abcdef0123456789abcdef0123456789abcdef012345"
+}

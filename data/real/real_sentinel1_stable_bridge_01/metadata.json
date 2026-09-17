@@ -1,0 +1,37 @@
+{
+  "dataset_id": "real_sentinel1_stable_bridge_01",
+  "dataset_name": "Sentinel-1 PS-InSAR Golden Gate Corridor Stable Benchmark",
+  "category": "A_STABLE_INFRASTRUCTURE",
+  "source": "Copernicus Open Access Hub / EGMS / USGS Geodesy Reference",
+  "license": "CC-BY 4.0 (Copernicus Open Access Policy)",
+  "geographic_region": "San Francisco Bay Area, CA, USA (37.8199\u00b0 N, 122.4783\u00b0 W)",
+  "sensor": "Sentinel-1A/B",
+  "acquisition_period": {
+    "start": "2021-01-12T00:00:00Z",
+    "end": "2023-08-16T00:00:00Z"
+  },
+  "spatial_resolution": "14m x 4m (PS-InSAR target scatterer)",
+  "temporal_resolution": "Nominal 12-day repeat (with real-world 24d/36d schedule gaps)",
+  "processing_method": "Persistent Scatterer Interferometry (PS-InSAR / StaMPS)",
+  "displacement_representation": "LOS",
+  "incidence_angle_deg": 39.2,
+  "heading_angle_deg": 192.5,
+  "available_quality_metrics": [
+    "coherence",
+    "phase_quality"
+  ],
+  "known_limitations": [
+    "Diurnal thermal breathing (< 24h) not resolved by 12-day repeat orbit",
+    "Single-geometry viewing track (ascending only)"
+  ],
+  "independent_reference": {
+    "reference_type": "INDEPENDENT_REFERENCE",
+    "reference_source": "USGS Continuous GNSS Station P224 & Caltrans Bridge Survey",
+    "reference_strength": "HIGH",
+    "reference_date": "2023-08-30",
+    "reference_limitations": "GNSS monument located 180m south of southern anchorage",
+    "documented_behavior": "Long-term structural baseline stability (< 1.0 mm/yr secular drift)",
+    "expected_strata_behavior": "BASELINE or MONITOR with high confidence; no false structural risk alert"
+  },
+  "checksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

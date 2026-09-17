@@ -1,0 +1,593 @@
+{
+  "audit_version": "1.0.0",
+  "audit_timestamp": "2026-09-17T04:43:43.180267+00:00",
+  "python_version": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "dataset_total_samples": 3500,
+  "split_counts": {
+    "train": 2450,
+    "validation": 525,
+    "test": 525
+  },
+  "observable_feature_count": 28,
+  "observable_features": [
+    "epoch_count",
+    "duration_days",
+    "temporal_spacing_mean_days",
+    "temporal_spacing_std_days",
+    "incidence_angle_mean_deg",
+    "incidence_angle_std_deg",
+    "coherence_mean",
+    "coherence_std",
+    "minimum_coherence",
+    "phase_quality_mean",
+    "phase_quality_std",
+    "noise_estimate_mean_mm",
+    "mean_displacement_mm",
+    "displacement_std_mm",
+    "displacement_range_mm",
+    "displacement_to_noise_ratio",
+    "mean_absolute_step_mm",
+    "max_absolute_step_mm",
+    "max_step_to_range_ratio",
+    "sign_change_count",
+    "zero_crossing_count",
+    "directional_consistency",
+    "slope_mm_per_year",
+    "linear_fit_residual_std_mm",
+    "acceleration_mm_per_year2",
+    "quadratic_fit_residual_std_mm",
+    "temporal_autocorrelation_lag1",
+    "approximate_periodicity_indicator"
+  ],
+  "ground_truth_only_fields": [
+    "true_structural_displacement_mm",
+    "true_environmental_displacement_mm",
+    "true_atmospheric_displacement_mm",
+    "true_noise_mm",
+    "ground_truth_class",
+    "scenario",
+    "parameters",
+    "is_edge_case",
+    "edge_case_type"
+  ],
+  "diagnostic_baselines": {
+    "majority_class": {
+      "accuracy": 0.1429,
+      "macro_f1": 0.0357
+    },
+    "logistic_regression": {
+      "val_accuracy": 0.6705,
+      "test_accuracy": 0.6895,
+      "test_macro_precision": 0.6828,
+      "test_macro_recall": 0.6895,
+      "test_macro_f1": 0.6835,
+      "confusion_matrix": [
+        [
+          60,
+          0,
+          3,
+          6,
+          1,
+          4,
+          1
+        ],
+        [
+          0,
+          75,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          63,
+          0,
+          2,
+          3,
+          3
+        ],
+        [
+          3,
+          0,
+          1,
+          43,
+          16,
+          11,
+          1
+        ],
+        [
+          1,
+          0,
+          6,
+          27,
+          18,
+          23,
+          0
+        ],
+        [
+          2,
+          0,
+          6,
+          19,
+          16,
+          31,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          72
+        ]
+      ]
+    },
+    "decision_tree_depth4": {
+      "test_accuracy": 0.6,
+      "test_macro_f1": 0.5675,
+      "confusion_matrix": [
+        [
+          51,
+          0,
+          0,
+          20,
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          75,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          46,
+          14,
+          0,
+          10,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          72,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          3,
+          63,
+          0,
+          8,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          62,
+          0,
+          11,
+          0
+        ],
+        [
+          10,
+          0,
+          0,
+          5,
+          0,
+          0,
+          60
+        ]
+      ]
+    },
+    "random_forest_depth6": {
+      "val_accuracy": 0.6743,
+      "test_accuracy": 0.6952,
+      "test_macro_precision": 0.6968,
+      "test_macro_recall": 0.6952,
+      "test_macro_f1": 0.6872,
+      "confusion_matrix": [
+        [
+          58,
+          0,
+          1,
+          6,
+          3,
+          2,
+          5
+        ],
+        [
+          0,
+          75,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          0,
+          60,
+          1,
+          4,
+          3,
+          0
+        ],
+        [
+          6,
+          0,
+          0,
+          55,
+          12,
+          0,
+          2
+        ],
+        [
+          4,
+          0,
+          4,
+          25,
+          26,
+          16,
+          0
+        ],
+        [
+          8,
+          0,
+          3,
+          24,
+          17,
+          23,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          2,
+          1,
+          0,
+          68
+        ]
+      ]
+    }
+  },
+  "top_single_feature_predictors": [
+    {
+      "feature": "displacement_to_noise_ratio",
+      "test_accuracy": 0.2819,
+      "test_macro_f1": 0.268
+    },
+    {
+      "feature": "temporal_autocorrelation_lag1",
+      "test_accuracy": 0.3219,
+      "test_macro_f1": 0.2546
+    },
+    {
+      "feature": "linear_fit_residual_std_mm",
+      "test_accuracy": 0.3067,
+      "test_macro_f1": 0.2506
+    },
+    {
+      "feature": "mean_absolute_step_mm",
+      "test_accuracy": 0.2838,
+      "test_macro_f1": 0.2449
+    },
+    {
+      "feature": "mean_displacement_mm",
+      "test_accuracy": 0.2952,
+      "test_macro_f1": 0.2294
+    },
+    {
+      "feature": "displacement_std_mm",
+      "test_accuracy": 0.2952,
+      "test_macro_f1": 0.2289
+    },
+    {
+      "feature": "minimum_coherence",
+      "test_accuracy": 0.3086,
+      "test_macro_f1": 0.2249
+    },
+    {
+      "feature": "coherence_mean",
+      "test_accuracy": 0.3086,
+      "test_macro_f1": 0.2246
+    },
+    {
+      "feature": "quadratic_fit_residual_std_mm",
+      "test_accuracy": 0.2819,
+      "test_macro_f1": 0.2235
+    },
+    {
+      "feature": "coherence_std",
+      "test_accuracy": 0.2933,
+      "test_macro_f1": 0.2126
+    }
+  ],
+  "temporal_vs_static_comparison": {
+    "Static Features Only": {
+      "feature_count": 16,
+      "test_accuracy": 0.6381,
+      "test_macro_f1": 0.6296,
+      "test_macro_precision": 0.6571,
+      "test_macro_recall": 0.6381
+    },
+    "Temporal Features Only": {
+      "feature_count": 12,
+      "test_accuracy": 0.56,
+      "test_macro_f1": 0.5521,
+      "test_macro_precision": 0.5553,
+      "test_macro_recall": 0.56
+    },
+    "Combined (Static + Temporal)": {
+      "feature_count": 28,
+      "test_accuracy": 0.6952,
+      "test_macro_f1": 0.6872,
+      "test_macro_precision": 0.6968,
+      "test_macro_recall": 0.6952
+    }
+  },
+  "pairwise_separability": {
+    "STABLE vs STRUCTURAL_MONOTONIC": {
+      "accuracy": 0.7667,
+      "f1_score": 0.7368,
+      "test_samples": 150,
+      "confusion_matrix": {
+        "true_STABLE": {
+          "pred_STABLE": 66,
+          "pred_STRUCTURAL_MONOTONIC": 9
+        },
+        "true_STRUCTURAL_MONOTONIC": {
+          "pred_STABLE": 26,
+          "pred_STRUCTURAL_MONOTONIC": 49
+        }
+      }
+    },
+    "STABLE vs STRUCTURAL_ACCELERATING": {
+      "accuracy": 0.6933,
+      "f1_score": 0.6806,
+      "test_samples": 150,
+      "confusion_matrix": {
+        "true_STABLE": {
+          "pred_STABLE": 55,
+          "pred_STRUCTURAL_ACCELERATING": 20
+        },
+        "true_STRUCTURAL_ACCELERATING": {
+          "pred_STABLE": 26,
+          "pred_STRUCTURAL_ACCELERATING": 49
+        }
+      }
+    },
+    "STRUCTURAL_MONOTONIC vs SEASONAL_ENVIRONMENTAL": {
+      "accuracy": 0.8933,
+      "f1_score": 0.8904,
+      "test_samples": 150,
+      "confusion_matrix": {
+        "true_STRUCTURAL_MONOTONIC": {
+          "pred_STRUCTURAL_MONOTONIC": 69,
+          "pred_SEASONAL_ENVIRONMENTAL": 6
+        },
+        "true_SEASONAL_ENVIRONMENTAL": {
+          "pred_STRUCTURAL_MONOTONIC": 10,
+          "pred_SEASONAL_ENVIRONMENTAL": 65
+        }
+      }
+    },
+    "STRUCTURAL_ACCELERATING vs SEASONAL_ENVIRONMENTAL": {
+      "accuracy": 0.9,
+      "f1_score": 0.898,
+      "test_samples": 150,
+      "confusion_matrix": {
+        "true_STRUCTURAL_ACCELERATING": {
+          "pred_STRUCTURAL_ACCELERATING": 69,
+          "pred_SEASONAL_ENVIRONMENTAL": 6
+        },
+        "true_SEASONAL_ENVIRONMENTAL": {
+          "pred_STRUCTURAL_ACCELERATING": 9,
+          "pred_SEASONAL_ENVIRONMENTAL": 66
+        }
+      }
+    },
+    "STRUCTURAL_MONOTONIC vs ATMOSPHERIC_TRANSIENT": {
+      "accuracy": 0.88,
+      "f1_score": 0.8784,
+      "test_samples": 150,
+      "confusion_matrix": {
+        "true_STRUCTURAL_MONOTONIC": {
+          "pred_STRUCTURAL_MONOTONIC": 67,
+          "pred_ATMOSPHERIC_TRANSIENT": 8
+        },
+        "true_ATMOSPHERIC_TRANSIENT": {
+          "pred_STRUCTURAL_MONOTONIC": 10,
+          "pred_ATMOSPHERIC_TRANSIENT": 65
+        }
+      }
+    },
+    "SEASONAL_ENVIRONMENTAL vs ATMOSPHERIC_TRANSIENT": {
+      "accuracy": 0.94,
+      "f1_score": 0.9412,
+      "test_samples": 150,
+      "confusion_matrix": {
+        "true_SEASONAL_ENVIRONMENTAL": {
+          "pred_SEASONAL_ENVIRONMENTAL": 69,
+          "pred_ATMOSPHERIC_TRANSIENT": 6
+        },
+        "true_ATMOSPHERIC_TRANSIENT": {
+          "pred_SEASONAL_ENVIRONMENTAL": 3,
+          "pred_ATMOSPHERIC_TRANSIENT": 72
+        }
+      }
+    },
+    "TEMPORALLY_INCONSISTENT vs ATMOSPHERIC_TRANSIENT": {
+      "accuracy": 0.94,
+      "f1_score": 0.9396,
+      "test_samples": 150,
+      "confusion_matrix": {
+        "true_TEMPORALLY_INCONSISTENT": {
+          "pred_TEMPORALLY_INCONSISTENT": 71,
+          "pred_ATMOSPHERIC_TRANSIENT": 4
+        },
+        "true_ATMOSPHERIC_TRANSIENT": {
+          "pred_TEMPORALLY_INCONSISTENT": 5,
+          "pred_ATMOSPHERIC_TRANSIENT": 70
+        }
+      }
+    }
+  },
+  "ambiguity_analysis": {
+    "seasonal_with_monotonic_flank": {
+      "count": 4,
+      "sample_ids": [
+        "STRATA_SYN_SEASONAL_ENVIRONMENTAL_00048",
+        "STRATA_SYN_SEASONAL_ENVIRONMENTAL_00485",
+        "STRATA_SYN_SEASONAL_ENVIRONMENTAL_00102",
+        "STRATA_SYN_SEASONAL_ENVIRONMENTAL_00308"
+      ],
+      "description": "Seasonal cycles observed over partial period exhibiting monotonic persistent flanks."
+    },
+    "weak_structural_near_noise": {
+      "count": 6,
+      "sample_ids": [
+        "STRATA_SYN_STRUCTURAL_MONOTONIC_00097",
+        "STRATA_SYN_STRUCTURAL_MONOTONIC_00432",
+        "STRATA_SYN_STRUCTURAL_MONOTONIC_00131",
+        "STRATA_SYN_STRUCTURAL_MONOTONIC_00184",
+        "STRATA_SYN_STRUCTURAL_MONOTONIC_00236"
+      ],
+      "description": "Slow monotonic structural movement (< 3mm total range) buried in measurement noise."
+    },
+    "stable_zero_crossings": {
+      "count": 62,
+      "sample_ids": [
+        "STRATA_SYN_STABLE_00147",
+        "STRATA_SYN_STABLE_00135",
+        "STRATA_SYN_STABLE_00290",
+        "STRATA_SYN_STABLE_00075",
+        "STRATA_SYN_STABLE_00263"
+      ],
+      "description": "Pure stable measurement noise crossing zero >= 3 times mimicking subtle cyclical oscillation."
+    },
+    "temporally_inconsistent_spike_like": {
+      "count": 56,
+      "sample_ids": [
+        "STRATA_SYN_TEMPORALLY_INCONSISTENT_00230",
+        "STRATA_SYN_TEMPORALLY_INCONSISTENT_00235",
+        "STRATA_SYN_TEMPORALLY_INCONSISTENT_00327",
+        "STRATA_SYN_TEMPORALLY_INCONSISTENT_00197",
+        "STRATA_SYN_TEMPORALLY_INCONSISTENT_00147"
+      ],
+      "description": "Temporally inconsistent sequences where one abrupt step accounts for >70% of total range."
+    }
+  },
+  "synthetic_shortcuts": {
+    "low_quality_coherence_separation": {
+      "finding": "LOW_QUALITY maximum mean coherence is 0.220, while non-LOW_QUALITY minimum mean coherence is 0.329.",
+      "classification": "PHYSICALLY_JUSTIFIED",
+      "rationale": "By definition in radar interferometry, low quality occurs when coherence drops below 0.25 decorrelation noise floor."
+    },
+    "epoch_count_distribution": {
+      "finding": {
+        "ATMOSPHERIC_TRANSIENT": {
+          "min": 6.0,
+          "mean": 13.204,
+          "max": 20.0
+        },
+        "LOW_QUALITY": {
+          "min": 6.0,
+          "mean": 13.194,
+          "max": 20.0
+        },
+        "SEASONAL_ENVIRONMENTAL": {
+          "min": 8.0,
+          "mean": 16.508,
+          "max": 24.0
+        },
+        "STABLE": {
+          "min": 6.0,
+          "mean": 12.414,
+          "max": 20.0
+        },
+        "STRUCTURAL_ACCELERATING": {
+          "min": 6.0,
+          "mean": 12.52,
+          "max": 20.0
+        },
+        "STRUCTURAL_MONOTONIC": {
+          "min": 6.0,
+          "mean": 13.056,
+          "max": 20.0
+        },
+        "TEMPORALLY_INCONSISTENT": {
+          "min": 6.0,
+          "mean": 13.216,
+          "max": 20.0
+        }
+      },
+      "classification": "GENERATOR_ARTIFACT",
+      "rationale": "SEASONAL sequences were generated with 10-24 epochs (mean ~17) whereas others used 6-20 (mean ~13). While seasonal cycles physically require longer observation baselines, the model might exploit epoch_count as a slight shortcut if not controlled."
+    },
+    "incidence_angle_distribution": {
+      "finding": {
+        "ATMOSPHERIC_TRANSIENT": {
+          "min": 25.03,
+          "mean": 34.927620000000005,
+          "max": 45.0
+        },
+        "LOW_QUALITY": {
+          "min": 25.0,
+          "mean": 34.805080000000004,
+          "max": 44.99
+        },
+        "SEASONAL_ENVIRONMENTAL": {
+          "min": 25.03,
+          "mean": 34.76368,
+          "max": 44.94
+        },
+        "STABLE": {
+          "min": 25.03,
+          "mean": 35.057199999999995,
+          "max": 44.95
+        },
+        "STRUCTURAL_ACCELERATING": {
+          "min": 25.09,
+          "mean": 35.03574,
+          "max": 44.99
+        },
+        "STRUCTURAL_MONOTONIC": {
+          "min": 25.02,
+          "mean": 35.01128,
+          "max": 44.98
+        },
+        "TEMPORALLY_INCONSISTENT": {
+          "min": 25.08,
+          "mean": 34.78954,
+          "max": 44.85
+        }
+      },
+      "classification": "PHYSICALLY_JUSTIFIED",
+      "rationale": "All classes share identical 25-45 degree range and mean (~35 degrees), showing zero geometric shortcut leakage."
+    },
+    "atmospheric_transient_step_ratio": {
+      "finding": "ATMOSPHERIC_TRANSIENT mean max_step_to_range_ratio is 0.849 vs 0.721 for other classes.",
+      "classification": "PHYSICALLY_JUSTIFIED",
+      "rationale": "An isolated transient spike naturally produces a single step that constitutes almost the entire sequence range."
+    }
+  }
+}

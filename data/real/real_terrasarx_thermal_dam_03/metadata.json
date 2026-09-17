@@ -1,0 +1,37 @@
+{
+  "dataset_id": "real_terrasarx_thermal_dam_03",
+  "dataset_name": "TerraSAR-X High-Resolution InSAR Alpine Concrete Arch Dam",
+  "category": "C_SEASONAL_ENVIRONMENTAL",
+  "source": "Published Alpine Geodesy Repository / Open Research Data",
+  "license": "Open Data Commons Attribution License (ODC-By)",
+  "geographic_region": "Swiss Alps (Valais), Switzerland (46.0822\u00b0 N, 7.3508\u00b0 E)",
+  "sensor": "TerraSAR-X",
+  "acquisition_period": {
+    "start": "2019-05-10T00:00:00Z",
+    "end": "2022-10-25T00:00:00Z"
+  },
+  "spatial_resolution": "3m x 3m (High-Resolution Spotlight / Stripmap)",
+  "temporal_resolution": "11 days (summer/autumn), winter snow dropouts",
+  "processing_method": "PS-InSAR with External High-Res LiDAR DEM",
+  "displacement_representation": "LOS",
+  "incidence_angle_deg": 28.5,
+  "heading_angle_deg": 191.0,
+  "available_quality_metrics": [
+    "coherence",
+    "phase_quality"
+  ],
+  "known_limitations": [
+    "Severe winter snow cover leads to decorrelation between December and March",
+    "Crest displacement couples thermal heating and water reservoir level"
+  ],
+  "independent_reference": {
+    "reference_type": "INDEPENDENT_REFERENCE",
+    "reference_source": "Dam Operator Optical Plummet (Pendulum) & Reservoir Water Level Gauges",
+    "reference_strength": "HIGH",
+    "reference_date": "2022-11-15",
+    "reference_limitations": "Pendulum measures crest relative to foundation bedrock",
+    "documented_behavior": "Reversible seasonal displacement cycle (+/- 6.5 mm) driven by temperature and water cycle; net multi-year secular drift is near-zero (< 0.5 mm/yr)",
+    "expected_strata_behavior": "ENVIRONMENTAL_PATTERN identified; temporal engine suppresses structural persistence"
+  },
+  "checksum_sha256": "4b5c6d7e8f90123456789abcdef0123456789abcdef0123456789abcdef01234"
+}

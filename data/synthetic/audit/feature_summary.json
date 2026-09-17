@@ -1,0 +1,2074 @@
+{
+  "epoch_count": {
+    "overall": {
+      "mean": 13.444571428571429,
+      "std": 4.620624479369559,
+      "min": 6.0,
+      "max": 24.0,
+      "median": 13.0
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 13.204,
+        "std": 4.3257,
+        "min": 6.0,
+        "q25": 10.0,
+        "median": 13.0,
+        "q75": 17.0,
+        "max": 20.0
+      },
+      "LOW_QUALITY": {
+        "mean": 13.194,
+        "std": 4.546,
+        "min": 6.0,
+        "q25": 9.0,
+        "median": 13.0,
+        "q75": 17.0,
+        "max": 20.0
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 16.508,
+        "std": 4.6481,
+        "min": 8.0,
+        "q25": 13.0,
+        "median": 17.0,
+        "q75": 20.0,
+        "max": 24.0
+      },
+      "STABLE": {
+        "mean": 12.414,
+        "std": 4.3011,
+        "min": 6.0,
+        "q25": 9.0,
+        "median": 13.0,
+        "q75": 16.0,
+        "max": 20.0
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 12.52,
+        "std": 4.4996,
+        "min": 6.0,
+        "q25": 8.0,
+        "median": 12.0,
+        "q75": 17.0,
+        "max": 20.0
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 13.056,
+        "std": 4.41,
+        "min": 6.0,
+        "q25": 9.0,
+        "median": 13.0,
+        "q75": 17.0,
+        "max": 20.0
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 13.216,
+        "std": 4.3455,
+        "min": 6.0,
+        "q25": 9.0,
+        "median": 13.0,
+        "q75": 17.0,
+        "max": 20.0
+      }
+    }
+  },
+  "duration_days": {
+    "overall": {
+      "mean": 186.26015142857145,
+      "std": 98.24942225259824,
+      "min": 29.82,
+      "max": 546.42,
+      "median": 166.56
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 184.8639,
+        "std": 95.882,
+        "min": 30.45,
+        "q25": 109.78,
+        "median": 167.48,
+        "q75": 245.54,
+        "max": 455.94
+      },
+      "LOW_QUALITY": {
+        "mean": 179.3097,
+        "std": 94.6715,
+        "min": 38.97,
+        "q25": 103.2725,
+        "median": 159.495,
+        "q75": 243.0775,
+        "max": 451.09
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 227.9706,
+        "std": 109.6007,
+        "min": 44.69,
+        "q25": 142.89,
+        "median": 206.055,
+        "q75": 300.2875,
+        "max": 546.42
+      },
+      "STABLE": {
+        "mean": 173.5285,
+        "std": 92.6824,
+        "min": 32.37,
+        "q25": 101.0,
+        "median": 154.655,
+        "q75": 232.7775,
+        "max": 451.43
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 176.8331,
+        "std": 97.9293,
+        "min": 30.42,
+        "q25": 102.905,
+        "median": 153.785,
+        "q75": 244.1425,
+        "max": 452.15
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 179.9915,
+        "std": 95.3086,
+        "min": 29.82,
+        "q25": 104.9375,
+        "median": 166.31,
+        "q75": 233.3525,
+        "max": 447.76
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 181.3237,
+        "std": 90.2527,
+        "min": 31.33,
+        "q25": 109.0675,
+        "median": 163.82,
+        "q75": 245.41,
+        "max": 454.33
+      }
+    }
+  },
+  "temporal_spacing_mean_days": {
+    "overall": {
+      "mean": 14.952648571428572,
+      "std": 5.235687668658698,
+      "min": 5.79,
+      "max": 24.09,
+      "median": 15.075
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 15.0352,
+        "std": 5.1766,
+        "min": 5.93,
+        "q25": 10.52,
+        "median": 15.325,
+        "q75": 19.3975,
+        "max": 24.02
+      },
+      "LOW_QUALITY": {
+        "mean": 14.7238,
+        "std": 5.1887,
+        "min": 6.0,
+        "q25": 10.3225,
+        "median": 14.475,
+        "q75": 19.0475,
+        "max": 23.84
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 14.6322,
+        "std": 5.15,
+        "min": 5.9,
+        "q25": 10.105,
+        "median": 14.385,
+        "q75": 19.045,
+        "max": 23.97
+      },
+      "STABLE": {
+        "mean": 15.2188,
+        "std": 5.3545,
+        "min": 5.79,
+        "q25": 10.2275,
+        "median": 15.26,
+        "q75": 20.0825,
+        "max": 23.98
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 15.2267,
+        "std": 5.3598,
+        "min": 5.79,
+        "q25": 10.5425,
+        "median": 15.915,
+        "q75": 19.8375,
+        "max": 24.09
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 14.9309,
+        "std": 5.3406,
+        "min": 5.96,
+        "q25": 10.325,
+        "median": 14.915,
+        "q75": 19.385,
+        "max": 24.09
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 14.9009,
+        "std": 5.0737,
+        "min": 5.99,
+        "q25": 10.2075,
+        "median": 15.24,
+        "q75": 19.475,
+        "max": 24.05
+      }
+    }
+  },
+  "temporal_spacing_std_days": {
+    "overall": {
+      "mean": 0.27064571428571427,
+      "std": 0.045059868357713674,
+      "min": 0.06,
+      "max": 0.41,
+      "median": 0.27
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 0.2705,
+        "std": 0.0435,
+        "min": 0.1,
+        "q25": 0.24,
+        "median": 0.27,
+        "q75": 0.3,
+        "max": 0.37
+      },
+      "LOW_QUALITY": {
+        "mean": 0.2719,
+        "std": 0.045,
+        "min": 0.12,
+        "q25": 0.24,
+        "median": 0.27,
+        "q75": 0.3,
+        "max": 0.39
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 0.2703,
+        "std": 0.0395,
+        "min": 0.12,
+        "q25": 0.25,
+        "median": 0.27,
+        "q75": 0.3,
+        "max": 0.38
+      },
+      "STABLE": {
+        "mean": 0.2723,
+        "std": 0.0468,
+        "min": 0.07,
+        "q25": 0.24,
+        "median": 0.28,
+        "q75": 0.3,
+        "max": 0.38
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 0.2712,
+        "std": 0.048,
+        "min": 0.12,
+        "q25": 0.24,
+        "median": 0.28,
+        "q75": 0.31,
+        "max": 0.39
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 0.2693,
+        "std": 0.0476,
+        "min": 0.06,
+        "q25": 0.24,
+        "median": 0.27,
+        "q75": 0.3,
+        "max": 0.4
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 0.269,
+        "std": 0.0447,
+        "min": 0.1,
+        "q25": 0.24,
+        "median": 0.27,
+        "q75": 0.3,
+        "max": 0.41
+      }
+    }
+  },
+  "incidence_angle_mean_deg": {
+    "overall": {
+      "mean": 34.91287714285715,
+      "std": 5.748181837306873,
+      "min": 25.0,
+      "max": 45.0,
+      "median": 34.86
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 34.9276,
+        "std": 5.9238,
+        "min": 25.03,
+        "q25": 29.615,
+        "median": 34.975,
+        "q75": 40.0375,
+        "max": 45.0
+      },
+      "LOW_QUALITY": {
+        "mean": 34.8051,
+        "std": 5.6403,
+        "min": 25.0,
+        "q25": 29.86,
+        "median": 34.74,
+        "q75": 39.8625,
+        "max": 44.99
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 34.7637,
+        "std": 5.5494,
+        "min": 25.03,
+        "q25": 30.1175,
+        "median": 34.575,
+        "q75": 39.2825,
+        "max": 44.94
+      },
+      "STABLE": {
+        "mean": 35.0572,
+        "std": 5.7128,
+        "min": 25.03,
+        "q25": 30.365,
+        "median": 35.115,
+        "q75": 39.84,
+        "max": 44.95
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 35.0357,
+        "std": 5.9356,
+        "min": 25.09,
+        "q25": 29.4675,
+        "median": 34.91,
+        "q75": 40.295,
+        "max": 44.99
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 35.0113,
+        "std": 5.6734,
+        "min": 25.02,
+        "q25": 30.07,
+        "median": 35.025,
+        "q75": 39.88,
+        "max": 44.98
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 34.7895,
+        "std": 5.817,
+        "min": 25.08,
+        "q25": 29.62,
+        "median": 34.36,
+        "q75": 39.945,
+        "max": 44.85
+      }
+    }
+  },
+  "incidence_angle_std_deg": {
+    "overall": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "median": 0.0
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "q25": 0.0,
+        "median": 0.0,
+        "q75": 0.0,
+        "max": 0.0
+      },
+      "LOW_QUALITY": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "q25": 0.0,
+        "median": 0.0,
+        "q75": 0.0,
+        "max": 0.0
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "q25": 0.0,
+        "median": 0.0,
+        "q75": 0.0,
+        "max": 0.0
+      },
+      "STABLE": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "q25": 0.0,
+        "median": 0.0,
+        "q75": 0.0,
+        "max": 0.0
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "q25": 0.0,
+        "median": 0.0,
+        "q75": 0.0,
+        "max": 0.0
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "q25": 0.0,
+        "median": 0.0,
+        "q75": 0.0,
+        "max": 0.0
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "q25": 0.0,
+        "median": 0.0,
+        "q75": 0.0,
+        "max": 0.0
+      }
+    }
+  },
+  "coherence_mean": {
+    "overall": {
+      "mean": 0.7109320857142858,
+      "std": 0.22460234570742488,
+      "min": 0.1205,
+      "max": 0.9457,
+      "median": 0.7956
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 0.8186,
+        "std": 0.0526,
+        "min": 0.7142,
+        "q25": 0.7866,
+        "median": 0.8025,
+        "q75": 0.8281,
+        "max": 0.9457
+      },
+      "LOW_QUALITY": {
+        "mean": 0.1703,
+        "std": 0.0129,
+        "min": 0.1205,
+        "q25": 0.1626,
+        "median": 0.1698,
+        "q75": 0.1787,
+        "max": 0.2196
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 0.7993,
+        "std": 0.022,
+        "min": 0.7367,
+        "q25": 0.7844,
+        "median": 0.7989,
+        "q75": 0.8138,
+        "max": 0.8662
+      },
+      "STABLE": {
+        "mean": 0.7987,
+        "std": 0.0278,
+        "min": 0.7072,
+        "q25": 0.7812,
+        "median": 0.8002,
+        "q75": 0.8179,
+        "max": 0.9057
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 0.8004,
+        "std": 0.0261,
+        "min": 0.7159,
+        "q25": 0.7839,
+        "median": 0.8006,
+        "q75": 0.816,
+        "max": 0.8912
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 0.7879,
+        "std": 0.0772,
+        "min": 0.3293,
+        "q25": 0.7822,
+        "median": 0.8007,
+        "q75": 0.8156,
+        "max": 0.8757
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 0.8013,
+        "std": 0.0259,
+        "min": 0.7317,
+        "q25": 0.7841,
+        "median": 0.8002,
+        "q75": 0.8174,
+        "max": 0.9101
+      }
+    }
+  },
+  "coherence_std": {
+    "overall": {
+      "mean": 0.07382771428571429,
+      "std": 0.020793137784878016,
+      "min": 0.0123,
+      "max": 0.1242,
+      "median": 0.0794
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 0.0729,
+        "std": 0.0229,
+        "min": 0.0138,
+        "q25": 0.0652,
+        "median": 0.0791,
+        "q75": 0.0888,
+        "max": 0.1242
+      },
+      "LOW_QUALITY": {
+        "mean": 0.038,
+        "std": 0.0065,
+        "min": 0.0123,
+        "q25": 0.0345,
+        "median": 0.0387,
+        "q75": 0.0424,
+        "max": 0.0554
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 0.0825,
+        "std": 0.0109,
+        "min": 0.0389,
+        "q25": 0.0758,
+        "median": 0.083,
+        "q75": 0.0897,
+        "max": 0.1102
+      },
+      "STABLE": {
+        "mean": 0.0804,
+        "std": 0.0141,
+        "min": 0.0281,
+        "q25": 0.073,
+        "median": 0.081,
+        "q75": 0.0902,
+        "max": 0.1191
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 0.0809,
+        "std": 0.014,
+        "min": 0.0225,
+        "q25": 0.0735,
+        "median": 0.0824,
+        "q75": 0.0895,
+        "max": 0.1186
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 0.0803,
+        "std": 0.0146,
+        "min": 0.0303,
+        "q25": 0.0736,
+        "median": 0.0822,
+        "q75": 0.0893,
+        "max": 0.114
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 0.0819,
+        "std": 0.0133,
+        "min": 0.0288,
+        "q25": 0.0743,
+        "median": 0.0824,
+        "q75": 0.0906,
+        "max": 0.1169
+      }
+    }
+  },
+  "minimum_coherence": {
+    "overall": {
+      "mean": 0.5964270571428572,
+      "std": 0.20334014686376065,
+      "min": 0.1,
+      "max": 0.9049,
+      "median": 0.6629
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 0.7063,
+        "std": 0.0799,
+        "min": 0.6501,
+        "q25": 0.6584,
+        "median": 0.6705,
+        "q75": 0.702,
+        "max": 0.9049
+      },
+      "LOW_QUALITY": {
+        "mean": 0.1111,
+        "std": 0.0127,
+        "min": 0.1,
+        "q25": 0.1028,
+        "median": 0.1069,
+        "q75": 0.1146,
+        "max": 0.1831
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 0.6698,
+        "std": 0.0203,
+        "min": 0.65,
+        "q25": 0.6562,
+        "median": 0.6642,
+        "q75": 0.6755,
+        "max": 0.7699
+      },
+      "STABLE": {
+        "mean": 0.6755,
+        "std": 0.0275,
+        "min": 0.65,
+        "q25": 0.6574,
+        "median": 0.6673,
+        "q75": 0.6834,
+        "max": 0.8636
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 0.6753,
+        "std": 0.0251,
+        "min": 0.65,
+        "q25": 0.6573,
+        "median": 0.6685,
+        "q75": 0.686,
+        "max": 0.8093
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 0.6627,
+        "std": 0.0668,
+        "min": 0.2803,
+        "q25": 0.6562,
+        "median": 0.6655,
+        "q75": 0.6814,
+        "max": 0.8249
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 0.6742,
+        "std": 0.0261,
+        "min": 0.6501,
+        "q25": 0.6571,
+        "median": 0.6654,
+        "q75": 0.6815,
+        "max": 0.8564
+      }
+    }
+  },
+  "phase_quality_mean": {
+    "overall": {
+      "mean": 0.7304892,
+      "std": 0.22901093421166505,
+      "min": 0.1343,
+      "max": 0.9006,
+      "median": 0.821
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 0.8267,
+        "std": 0.0204,
+        "min": 0.7612,
+        "q25": 0.8129,
+        "median": 0.8275,
+        "q75": 0.8404,
+        "max": 0.9006
+      },
+      "LOW_QUALITY": {
+        "mean": 0.1757,
+        "std": 0.0127,
+        "min": 0.1343,
+        "q25": 0.1676,
+        "median": 0.176,
+        "q75": 0.1843,
+        "max": 0.2146
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 0.8246,
+        "std": 0.0177,
+        "min": 0.7667,
+        "q25": 0.8138,
+        "median": 0.8246,
+        "q75": 0.836,
+        "max": 0.8995
+      },
+      "STABLE": {
+        "mean": 0.8262,
+        "std": 0.0221,
+        "min": 0.7557,
+        "q25": 0.8126,
+        "median": 0.8268,
+        "q75": 0.84,
+        "max": 0.8924
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 0.8234,
+        "std": 0.0234,
+        "min": 0.7459,
+        "q25": 0.8082,
+        "median": 0.8239,
+        "q75": 0.8399,
+        "max": 0.8917
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 0.8137,
+        "std": 0.0739,
+        "min": 0.3656,
+        "q25": 0.8097,
+        "median": 0.8261,
+        "q75": 0.8387,
+        "max": 0.8956
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 0.8232,
+        "std": 0.0206,
+        "min": 0.7685,
+        "q25": 0.8095,
+        "median": 0.8226,
+        "q75": 0.8373,
+        "max": 0.8903
+      }
+    }
+  },
+  "phase_quality_std": {
+    "overall": {
+      "mean": 0.06414905714285715,
+      "std": 0.013843581613775996,
+      "min": 0.0123,
+      "max": 0.1018,
+      "median": 0.0668
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 0.068,
+        "std": 0.0108,
+        "min": 0.0144,
+        "q25": 0.0626,
+        "median": 0.0691,
+        "q75": 0.075,
+        "max": 0.0968
+      },
+      "LOW_QUALITY": {
+        "mean": 0.041,
+        "std": 0.0065,
+        "min": 0.0123,
+        "q25": 0.0371,
+        "median": 0.0415,
+        "q75": 0.0454,
+        "max": 0.0567
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 0.0692,
+        "std": 0.0086,
+        "min": 0.0406,
+        "q25": 0.0635,
+        "median": 0.0697,
+        "q75": 0.0747,
+        "max": 0.0912
+      },
+      "STABLE": {
+        "mean": 0.0677,
+        "std": 0.011,
+        "min": 0.0156,
+        "q25": 0.0612,
+        "median": 0.0691,
+        "q75": 0.075,
+        "max": 0.1018
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 0.0673,
+        "std": 0.0114,
+        "min": 0.0262,
+        "q25": 0.0611,
+        "median": 0.0685,
+        "q75": 0.0748,
+        "max": 0.0991
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 0.0675,
+        "std": 0.0111,
+        "min": 0.0308,
+        "q25": 0.0613,
+        "median": 0.0685,
+        "q75": 0.0748,
+        "max": 0.0997
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 0.0683,
+        "std": 0.0101,
+        "min": 0.0296,
+        "q25": 0.0619,
+        "median": 0.0688,
+        "q75": 0.0756,
+        "max": 0.0971
+      }
+    }
+  },
+  "noise_estimate_mean_mm": {
+    "overall": {
+      "mean": 2.064690857142857,
+      "std": 1.0074629605562,
+      "min": 0.5,
+      "max": 4.992,
+      "median": 1.975
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 1.728,
+        "std": 0.7189,
+        "min": 0.5,
+        "q25": 1.1618,
+        "median": 1.691,
+        "q75": 2.3695,
+        "max": 2.995
+      },
+      "LOW_QUALITY": {
+        "mean": 3.7701,
+        "std": 0.7067,
+        "min": 2.52,
+        "q25": 3.1452,
+        "median": 3.7875,
+        "q75": 4.4032,
+        "max": 4.992
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 1.7728,
+        "std": 0.7867,
+        "min": 0.501,
+        "q25": 1.0205,
+        "median": 1.789,
+        "q75": 2.468,
+        "max": 3.499
+      },
+      "STABLE": {
+        "mean": 1.829,
+        "std": 0.7474,
+        "min": 0.505,
+        "q25": 1.2198,
+        "median": 1.765,
+        "q75": 2.4752,
+        "max": 3.0
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 1.8332,
+        "std": 0.7302,
+        "min": 0.51,
+        "q25": 1.2055,
+        "median": 1.893,
+        "q75": 2.456,
+        "max": 3.154
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 1.7553,
+        "std": 0.6881,
+        "min": 0.503,
+        "q25": 1.19,
+        "median": 1.81,
+        "q75": 2.334,
+        "max": 2.98
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 1.7643,
+        "std": 0.7125,
+        "min": 0.504,
+        "q25": 1.1852,
+        "median": 1.754,
+        "q75": 2.3403,
+        "max": 3.0
+      }
+    }
+  },
+  "mean_displacement_mm": {
+    "overall": {
+      "mean": 0.16248585714285713,
+      "std": 1.9620993012236219,
+      "min": -7.6832,
+      "max": 12.1691,
+      "median": -0.048
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": -0.0392,
+        "std": 1.1552,
+        "min": -4.3164,
+        "q25": -0.7874,
+        "median": -0.0358,
+        "q75": 0.7595,
+        "max": 4.6048
+      },
+      "LOW_QUALITY": {
+        "mean": 0.03,
+        "std": 1.1213,
+        "min": -4.4861,
+        "q25": -0.6135,
+        "median": -0.0459,
+        "q75": 0.6617,
+        "max": 4.5206
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 0.0242,
+        "std": 2.2005,
+        "min": -7.6832,
+        "q25": -0.8337,
+        "median": 0.0766,
+        "q75": 0.8815,
+        "max": 7.3599
+      },
+      "STABLE": {
+        "mean": -0.0265,
+        "std": 0.6132,
+        "min": -2.0764,
+        "q25": -0.3558,
+        "median": -0.0201,
+        "q75": 0.2799,
+        "max": 2.1511
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": -0.5657,
+        "std": 1.1778,
+        "min": -4.679,
+        "q25": -1.282,
+        "median": -0.5711,
+        "q75": 0.0676,
+        "max": 3.8176
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": -0.8353,
+        "std": 1.7773,
+        "min": -6.6869,
+        "q25": -1.929,
+        "median": -0.783,
+        "q75": 0.1293,
+        "max": 4.9893
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 2.55,
+        "std": 2.6992,
+        "min": -6.359,
+        "q25": 0.8288,
+        "median": 2.7307,
+        "q75": 4.245,
+        "max": 12.1691
+      }
+    }
+  },
+  "displacement_std_mm": {
+    "overall": {
+      "mean": 2.930331542857143,
+      "std": 1.4780904991413095,
+      "min": 0.2954,
+      "max": 10.9929,
+      "median": 2.8223000000000003
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 3.42,
+        "std": 1.161,
+        "min": 1.0494,
+        "q25": 2.5774,
+        "median": 3.3889,
+        "q75": 4.1073,
+        "max": 7.9972
+      },
+      "LOW_QUALITY": {
+        "mean": 3.4956,
+        "std": 1.0674,
+        "min": 1.0323,
+        "q25": 2.7095,
+        "median": 3.3883,
+        "q75": 4.2177,
+        "max": 7.815
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 4.3732,
+        "std": 1.848,
+        "min": 0.7625,
+        "q25": 2.9826,
+        "median": 4.0316,
+        "q75": 5.6834,
+        "max": 10.9929
+      },
+      "STABLE": {
+        "mean": 1.6765,
+        "std": 0.7941,
+        "min": 0.2954,
+        "q25": 1.0621,
+        "median": 1.6008,
+        "q75": 2.1551,
+        "max": 4.2244
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 1.8568,
+        "std": 0.8125,
+        "min": 0.348,
+        "q25": 1.2223,
+        "median": 1.7916,
+        "q75": 2.4204,
+        "max": 4.5032
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 2.007,
+        "std": 0.8411,
+        "min": 0.3402,
+        "q25": 1.3902,
+        "median": 1.9676,
+        "q75": 2.5621,
+        "max": 5.0362
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 3.6832,
+        "std": 0.7873,
+        "min": 1.8119,
+        "q25": 3.1197,
+        "median": 3.5656,
+        "q75": 4.1508,
+        "max": 6.957
+      }
+    }
+  },
+  "displacement_range_mm": {
+    "overall": {
+      "mean": 10.230649457142855,
+      "std": 5.203047158804587,
+      "min": 0.9409,
+      "max": 34.5713,
+      "median": 9.6271
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 13.4252,
+        "std": 4.5496,
+        "min": 4.3685,
+        "q25": 10.0233,
+        "median": 13.2344,
+        "q75": 16.3137,
+        "max": 29.4054
+      },
+      "LOW_QUALITY": {
+        "mean": 12.2484,
+        "std": 4.1086,
+        "min": 2.7928,
+        "q25": 9.1539,
+        "median": 12.0964,
+        "q75": 15.0671,
+        "max": 27.3261
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 14.2841,
+        "std": 5.6855,
+        "min": 2.2896,
+        "q25": 10.01,
+        "median": 13.5243,
+        "q75": 18.0855,
+        "max": 34.5713
+      },
+      "STABLE": {
+        "mean": 5.8091,
+        "std": 2.9257,
+        "min": 0.9409,
+        "q25": 3.4676,
+        "median": 5.3355,
+        "q75": 7.5677,
+        "max": 16.6193
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 6.4028,
+        "std": 3.0139,
+        "min": 1.054,
+        "q25": 4.0862,
+        "median": 6.0654,
+        "q75": 8.2133,
+        "max": 16.8773
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 7.0178,
+        "std": 3.206,
+        "min": 0.9895,
+        "q25": 4.6683,
+        "median": 6.7493,
+        "q75": 8.8703,
+        "max": 19.3964
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 12.4273,
+        "std": 3.4328,
+        "min": 4.9055,
+        "q25": 9.9535,
+        "median": 11.9007,
+        "q75": 14.6762,
+        "max": 25.9263
+      }
+    }
+  },
+  "displacement_to_noise_ratio": {
+    "overall": {
+      "mean": 5.980244857142858,
+      "std": 4.697917251647973,
+      "min": 0.657,
+      "max": 52.868,
+      "median": 4.3294999999999995
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 9.3798,
+        "std": 5.7332,
+        "min": 1.971,
+        "q25": 5.5505,
+        "median": 7.7535,
+        "q75": 11.179,
+        "max": 43.114
+      },
+      "LOW_QUALITY": {
+        "mean": 3.2424,
+        "std": 0.8747,
+        "min": 1.006,
+        "q25": 2.6262,
+        "median": 3.2935,
+        "q75": 3.7755,
+        "max": 5.927
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 9.8274,
+        "std": 6.375,
+        "min": 2.046,
+        "q25": 5.6465,
+        "median": 8.186,
+        "q75": 12.2622,
+        "max": 52.868
+      },
+      "STABLE": {
+        "mean": 3.1972,
+        "std": 0.8886,
+        "min": 0.944,
+        "q25": 2.5365,
+        "median": 3.1715,
+        "q75": 3.7855,
+        "max": 5.856
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 3.6239,
+        "std": 1.4143,
+        "min": 0.794,
+        "q25": 2.705,
+        "median": 3.435,
+        "q75": 4.1822,
+        "max": 14.44
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 4.269,
+        "std": 2.0229,
+        "min": 0.657,
+        "q25": 3.1088,
+        "median": 3.821,
+        "q75": 5.0318,
+        "max": 18.885
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 8.322,
+        "std": 4.234,
+        "min": 2.216,
+        "q25": 5.489,
+        "median": 7.193,
+        "q75": 9.6913,
+        "max": 29.29
+      }
+    }
+  },
+  "mean_absolute_step_mm": {
+    "overall": {
+      "mean": 3.145228457142857,
+      "std": 1.7208032406490288,
+      "min": 0.3586,
+      "max": 11.8791,
+      "median": 2.86965
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 3.7816,
+        "std": 1.6524,
+        "min": 0.9082,
+        "q25": 2.7344,
+        "median": 3.5439,
+        "q75": 4.5205,
+        "max": 11.8791
+      },
+      "LOW_QUALITY": {
+        "mean": 4.2046,
+        "std": 1.3706,
+        "min": 1.258,
+        "q25": 3.2686,
+        "median": 4.008,
+        "q75": 4.9814,
+        "max": 9.8868
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 2.5143,
+        "std": 1.0115,
+        "min": 0.518,
+        "q25": 1.7039,
+        "median": 2.4638,
+        "q75": 3.2273,
+        "max": 5.9844
+      },
+      "STABLE": {
+        "mean": 2.0193,
+        "std": 1.0314,
+        "min": 0.3586,
+        "q25": 1.1804,
+        "median": 1.8828,
+        "q75": 2.6174,
+        "max": 6.4718
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 2.0382,
+        "std": 1.0261,
+        "min": 0.365,
+        "q25": 1.2729,
+        "median": 1.8572,
+        "q75": 2.7647,
+        "max": 6.0782
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 2.0217,
+        "std": 0.9635,
+        "min": 0.3878,
+        "q25": 1.2716,
+        "median": 1.9038,
+        "q75": 2.6838,
+        "max": 6.6457
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 5.4369,
+        "std": 1.0642,
+        "min": 2.3254,
+        "q25": 4.7486,
+        "median": 5.3497,
+        "q75": 6.079,
+        "max": 9.6252
+      }
+    }
+  },
+  "max_absolute_step_mm": {
+    "overall": {
+      "mean": 7.298958085714286,
+      "std": 3.914046637845521,
+      "min": 0.6391,
+      "max": 25.1896,
+      "median": 6.938000000000001
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 11.3037,
+        "std": 3.9448,
+        "min": 3.1455,
+        "q25": 8.4128,
+        "median": 11.2632,
+        "q75": 13.6687,
+        "max": 25.1896
+      },
+      "LOW_QUALITY": {
+        "mean": 9.8714,
+        "std": 3.5833,
+        "min": 1.9636,
+        "q25": 7.1141,
+        "median": 9.4231,
+        "q75": 12.0581,
+        "max": 23.6142
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 6.1732,
+        "std": 2.6312,
+        "min": 1.3247,
+        "q25": 4.1039,
+        "median": 5.9079,
+        "q75": 8.1555,
+        "max": 14.5501
+      },
+      "STABLE": {
+        "mean": 4.6543,
+        "std": 2.5403,
+        "min": 0.6807,
+        "q25": 2.7394,
+        "median": 4.2513,
+        "q75": 5.9398,
+        "max": 15.9875
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 4.634,
+        "std": 2.2639,
+        "min": 0.6391,
+        "q25": 2.8551,
+        "median": 4.3096,
+        "q75": 6.1518,
+        "max": 12.7881
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 4.8475,
+        "std": 2.4588,
+        "min": 0.8212,
+        "q25": 2.8956,
+        "median": 4.3685,
+        "q75": 6.4897,
+        "max": 15.8107
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 9.6087,
+        "std": 2.2386,
+        "min": 4.4541,
+        "q25": 8.0098,
+        "median": 9.273,
+        "q75": 11.0268,
+        "max": 16.7616
+      }
+    }
+  },
+  "max_step_to_range_ratio": {
+    "overall": {
+      "mean": 0.7388532857142857,
+      "std": 0.2051646216328899,
+      "min": 0.1315,
+      "max": 1.0,
+      "median": 0.76385
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 0.8486,
+        "std": 0.1337,
+        "min": 0.4655,
+        "q25": 0.7498,
+        "median": 0.8742,
+        "q75": 0.9749,
+        "max": 1.0
+      },
+      "LOW_QUALITY": {
+        "mean": 0.8145,
+        "std": 0.1503,
+        "min": 0.4233,
+        "q25": 0.7009,
+        "median": 0.8162,
+        "q75": 0.9691,
+        "max": 1.0
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 0.4591,
+        "std": 0.1806,
+        "min": 0.1315,
+        "q25": 0.3192,
+        "median": 0.4312,
+        "q75": 0.5629,
+        "max": 1.0
+      },
+      "STABLE": {
+        "mean": 0.8044,
+        "std": 0.1535,
+        "min": 0.3128,
+        "q25": 0.6876,
+        "median": 0.8115,
+        "q75": 0.9525,
+        "max": 1.0
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 0.7413,
+        "std": 0.1818,
+        "min": 0.1943,
+        "q25": 0.6113,
+        "median": 0.7469,
+        "q75": 0.8843,
+        "max": 1.0
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 0.707,
+        "std": 0.1935,
+        "min": 0.1882,
+        "q25": 0.5771,
+        "median": 0.7066,
+        "q75": 0.856,
+        "max": 1.0
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 0.797,
+        "std": 0.152,
+        "min": 0.3915,
+        "q25": 0.6816,
+        "median": 0.7968,
+        "q75": 0.9278,
+        "max": 1.0
+      }
+    }
+  },
+  "sign_change_count": {
+    "overall": {
+      "mean": 7.503714285714286,
+      "std": 3.6680242293962624,
+      "min": 0.0,
+      "max": 18.0,
+      "median": 7.0
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 7.36,
+        "std": 3.2055,
+        "min": 1.0,
+        "q25": 5.0,
+        "median": 7.0,
+        "q75": 10.0,
+        "max": 16.0
+      },
+      "LOW_QUALITY": {
+        "mean": 7.38,
+        "std": 3.2914,
+        "min": 0.0,
+        "q25": 5.0,
+        "median": 7.0,
+        "q75": 10.0,
+        "max": 15.0
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 6.808,
+        "std": 3.561,
+        "min": 0.0,
+        "q25": 4.0,
+        "median": 6.0,
+        "q75": 9.0,
+        "max": 16.0
+      },
+      "STABLE": {
+        "mean": 6.726,
+        "std": 3.0897,
+        "min": 0.0,
+        "q25": 4.0,
+        "median": 7.0,
+        "q75": 9.0,
+        "max": 17.0
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 6.692,
+        "std": 3.2512,
+        "min": 0.0,
+        "q25": 4.0,
+        "median": 6.0,
+        "q75": 9.0,
+        "max": 16.0
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 7.002,
+        "std": 3.2322,
+        "min": 0.0,
+        "q25": 4.0,
+        "median": 7.0,
+        "q75": 9.25,
+        "max": 15.0
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 10.558,
+        "std": 4.3132,
+        "min": 2.0,
+        "q25": 7.0,
+        "median": 11.0,
+        "q75": 14.0,
+        "max": 18.0
+      }
+    }
+  },
+  "zero_crossing_count": {
+    "overall": {
+      "mean": 4.819428571428571,
+      "std": 2.989735648915816,
+      "min": 0.0,
+      "max": 19.0,
+      "median": 4.0
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 6.164,
+        "std": 2.818,
+        "min": 0.0,
+        "q25": 4.0,
+        "median": 6.0,
+        "q75": 8.0,
+        "max": 15.0
+      },
+      "LOW_QUALITY": {
+        "mean": 6.138,
+        "std": 2.8204,
+        "min": 0.0,
+        "q25": 4.0,
+        "median": 6.0,
+        "q75": 8.0,
+        "max": 13.0
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 2.724,
+        "std": 1.9929,
+        "min": 0.0,
+        "q25": 1.0,
+        "median": 2.0,
+        "q75": 4.0,
+        "max": 10.0
+      },
+      "STABLE": {
+        "mean": 5.622,
+        "std": 2.6641,
+        "min": 0.0,
+        "q25": 4.0,
+        "median": 5.0,
+        "q75": 8.0,
+        "max": 13.0
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 4.314,
+        "std": 2.5527,
+        "min": 0.0,
+        "q25": 2.0,
+        "median": 4.0,
+        "q75": 6.0,
+        "max": 14.0
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 3.758,
+        "std": 2.5315,
+        "min": 0.0,
+        "q25": 2.0,
+        "median": 3.0,
+        "q75": 5.0,
+        "max": 12.0
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 5.016,
+        "std": 3.5729,
+        "min": 0.0,
+        "q25": 2.0,
+        "median": 4.0,
+        "q75": 7.0,
+        "max": 19.0
+      }
+    }
+  },
+  "directional_consistency": {
+    "overall": {
+      "mean": 0.5612672571428571,
+      "std": 0.07267121696565751,
+      "min": 0.2,
+      "max": 1.0,
+      "median": 0.5556
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 0.5566,
+        "std": 0.0652,
+        "min": 0.4211,
+        "q25": 0.5,
+        "median": 0.5505,
+        "q75": 0.5833,
+        "max": 0.8333
+      },
+      "LOW_QUALITY": {
+        "mean": 0.5625,
+        "std": 0.0651,
+        "min": 0.4,
+        "q25": 0.5,
+        "median": 0.5556,
+        "q75": 0.6,
+        "max": 0.8333
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 0.5797,
+        "std": 0.091,
+        "min": 0.4167,
+        "q25": 0.5238,
+        "median": 0.5556,
+        "q75": 0.6154,
+        "max": 1.0
+      },
+      "STABLE": {
+        "mean": 0.5572,
+        "std": 0.0701,
+        "min": 0.3571,
+        "q25": 0.5,
+        "median": 0.5556,
+        "q75": 0.6,
+        "max": 1.0
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 0.564,
+        "std": 0.0773,
+        "min": 0.3333,
+        "q25": 0.5,
+        "median": 0.5556,
+        "q75": 0.6,
+        "max": 0.8571
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 0.5697,
+        "std": 0.0793,
+        "min": 0.2,
+        "q25": 0.5,
+        "median": 0.5625,
+        "q75": 0.6,
+        "max": 1.0
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 0.5392,
+        "std": 0.0462,
+        "min": 0.4,
+        "q25": 0.5,
+        "median": 0.5294,
+        "q75": 0.5625,
+        "max": 0.8
+      }
+    }
+  },
+  "slope_mm_per_year": {
+    "overall": {
+      "mean": -0.4678836285714286,
+      "std": 13.47505421560199,
+      "min": -94.1551,
+      "max": 108.4777,
+      "median": -0.7323500000000001
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 0.0236,
+        "std": 10.2271,
+        "min": -50.4706,
+        "q25": -3.6767,
+        "median": 0.1655,
+        "q75": 3.7341,
+        "max": 56.8218
+      },
+      "LOW_QUALITY": {
+        "mean": -0.1627,
+        "std": 13.3492,
+        "min": -94.1551,
+        "q25": -4.4401,
+        "median": 0.5013,
+        "q75": 5.0538,
+        "max": 53.3936
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": -0.0657,
+        "std": 22.9223,
+        "min": -70.5492,
+        "q25": -9.3604,
+        "median": -0.7817,
+        "q75": 9.3056,
+        "max": 108.4777
+      },
+      "STABLE": {
+        "mean": -0.2508,
+        "std": 6.8261,
+        "min": -27.537,
+        "q25": -2.8131,
+        "median": -0.2127,
+        "q75": 2.2153,
+        "max": 57.1238
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": -2.3837,
+        "std": 7.8473,
+        "min": -54.8324,
+        "q25": -6.1834,
+        "median": -2.8199,
+        "q75": 1.525,
+        "max": 28.3686
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": -3.4123,
+        "std": 9.5878,
+        "min": -61.8244,
+        "q25": -8.8188,
+        "median": -3.9318,
+        "q75": 1.3003,
+        "max": 37.7865
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 2.9765,
+        "std": 15.4951,
+        "min": -58.0804,
+        "q25": -5.5891,
+        "median": 1.9251,
+        "q75": 10.3907,
+        "max": 94.5901
+      }
+    }
+  },
+  "linear_fit_residual_std_mm": {
+    "overall": {
+      "mean": 2.5755095999999997,
+      "std": 1.3430330000813986,
+      "min": 0.1381,
+      "max": 9.5305,
+      "median": 2.4781
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 3.3016,
+        "std": 1.1259,
+        "min": 0.9785,
+        "q25": 2.4776,
+        "median": 3.2767,
+        "q75": 3.9535,
+        "max": 7.6267
+      },
+      "LOW_QUALITY": {
+        "mean": 3.3099,
+        "std": 1.0354,
+        "min": 0.9919,
+        "q25": 2.5684,
+        "median": 3.2149,
+        "q75": 4.0208,
+        "max": 7.6053
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 3.3571,
+        "std": 1.7228,
+        "min": 0.4818,
+        "q25": 2.0945,
+        "median": 3.0173,
+        "q75": 4.3643,
+        "max": 9.5305
+      },
+      "STABLE": {
+        "mean": 1.575,
+        "std": 0.7766,
+        "min": 0.2404,
+        "q25": 0.9818,
+        "median": 1.4786,
+        "q75": 2.0267,
+        "max": 3.9583
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 1.5845,
+        "std": 0.756,
+        "min": 0.1381,
+        "q25": 0.9733,
+        "median": 1.5454,
+        "q75": 2.1223,
+        "max": 4.4925
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 1.5862,
+        "std": 0.7347,
+        "min": 0.2085,
+        "q25": 1.0154,
+        "median": 1.5258,
+        "q75": 2.1006,
+        "max": 4.1219
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 3.3143,
+        "std": 0.6559,
+        "min": 1.622,
+        "q25": 2.8829,
+        "median": 3.2417,
+        "q75": 3.6683,
+        "max": 5.6504
+      }
+    }
+  },
+  "acceleration_mm_per_year2": {
+    "overall": {
+      "mean": -12.133436085714287,
+      "std": 434.7981727176532,
+      "min": -8197.4107,
+      "max": 5737.735,
+      "median": -1.08095
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 0.3765,
+        "std": 781.2227,
+        "min": -8197.4107,
+        "q25": -62.2677,
+        "median": 0.7501,
+        "q75": 62.9997,
+        "max": 5737.735
+      },
+      "LOW_QUALITY": {
+        "mean": 3.4043,
+        "std": 499.3859,
+        "min": -4175.6021,
+        "q25": -67.3342,
+        "median": 3.8131,
+        "q75": 74.0467,
+        "max": 4486.3916
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": -0.6553,
+        "std": 245.863,
+        "min": -1049.1016,
+        "q25": -113.5281,
+        "median": -1.104,
+        "q75": 106.1325,
+        "max": 1228.2677
+      },
+      "STABLE": {
+        "mean": 1.7478,
+        "std": 294.2341,
+        "min": -1794.0004,
+        "q25": -32.6001,
+        "median": 1.4005,
+        "q75": 35.2816,
+        "max": 3215.1984
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": -28.4815,
+        "std": 340.8413,
+        "min": -3934.2148,
+        "q25": -37.6999,
+        "median": -0.3509,
+        "q75": 32.028,
+        "max": 1669.6974
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": -3.0827,
+        "std": 265.9442,
+        "min": -1642.5112,
+        "q25": -34.8066,
+        "median": -1.3344,
+        "q75": 35.5136,
+        "max": 1805.7719
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": -58.2431,
+        "std": 358.8853,
+        "min": -2701.9946,
+        "q25": -94.8795,
+        "median": -13.903,
+        "q75": 44.7743,
+        "max": 2840.8539
+      }
+    }
+  },
+  "quadratic_fit_residual_std_mm": {
+    "overall": {
+      "mean": 2.346260742857143,
+      "std": 1.2434979648319966,
+      "min": 0.1103,
+      "max": 9.5273,
+      "median": 2.24355
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 3.1541,
+        "std": 1.088,
+        "min": 0.4632,
+        "q25": 2.3818,
+        "median": 3.1402,
+        "q75": 3.7961,
+        "max": 7.295
+      },
+      "LOW_QUALITY": {
+        "mean": 3.1337,
+        "std": 1.0461,
+        "min": 0.5748,
+        "q25": 2.4041,
+        "median": 3.066,
+        "q75": 3.8207,
+        "max": 6.8541
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 2.5416,
+        "std": 1.5126,
+        "min": 0.341,
+        "q25": 1.4597,
+        "median": 2.2419,
+        "q75": 3.1953,
+        "max": 9.5273
+      },
+      "STABLE": {
+        "mean": 1.476,
+        "std": 0.757,
+        "min": 0.2221,
+        "q25": 0.8772,
+        "median": 1.3861,
+        "q75": 1.924,
+        "max": 3.922
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 1.462,
+        "std": 0.7234,
+        "min": 0.1103,
+        "q25": 0.8963,
+        "median": 1.3731,
+        "q75": 1.9829,
+        "max": 4.3176
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 1.4864,
+        "std": 0.7179,
+        "min": 0.1285,
+        "q25": 0.9091,
+        "median": 1.3949,
+        "q75": 1.9812,
+        "max": 4.1012
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 3.17,
+        "std": 0.6233,
+        "min": 1.4366,
+        "q25": 2.7572,
+        "median": 3.0928,
+        "q75": 3.5471,
+        "max": 5.1856
+      }
+    }
+  },
+  "temporal_autocorrelation_lag1": {
+    "overall": {
+      "mean": 0.018805085714285717,
+      "std": 0.3913207252879167,
+      "min": -0.8747,
+      "max": 0.9327,
+      "median": -0.0184
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": -0.1013,
+        "std": 0.2049,
+        "min": -0.7802,
+        "q25": -0.2268,
+        "median": -0.1006,
+        "q75": 0.0256,
+        "max": 0.4931
+      },
+      "LOW_QUALITY": {
+        "mean": -0.0866,
+        "std": 0.2611,
+        "min": -0.6964,
+        "q25": -0.2651,
+        "median": -0.0941,
+        "q75": 0.0997,
+        "max": 0.4955
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 0.5894,
+        "std": 0.2632,
+        "min": -0.5769,
+        "q25": 0.4652,
+        "median": 0.668,
+        "q75": 0.7806,
+        "max": 0.9327
+      },
+      "STABLE": {
+        "mean": -0.0782,
+        "std": 0.2689,
+        "min": -0.8308,
+        "q25": -0.2635,
+        "median": -0.0799,
+        "q75": 0.1044,
+        "max": 0.5861
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 0.0458,
+        "std": 0.3161,
+        "min": -0.7803,
+        "q25": -0.1717,
+        "median": 0.0447,
+        "q75": 0.2698,
+        "max": 0.8281
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 0.1183,
+        "std": 0.3349,
+        "min": -0.7963,
+        "q25": -0.1149,
+        "median": 0.1183,
+        "q75": 0.3709,
+        "max": 0.8485
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": -0.3559,
+        "std": 0.3119,
+        "min": -0.8747,
+        "q25": -0.5973,
+        "median": -0.3936,
+        "q75": -0.162,
+        "max": 0.5567
+      }
+    }
+  },
+  "approximate_periodicity_indicator": {
+    "overall": {
+      "mean": 0.5141600857142857,
+      "std": 0.32627808065246106,
+      "min": 0.0,
+      "max": 0.9999,
+      "median": 0.5564
+    },
+    "by_class": {
+      "ATMOSPHERIC_TRANSIENT": {
+        "mean": 0.8138,
+        "std": 0.183,
+        "min": 0.0,
+        "q25": 0.7546,
+        "median": 0.8661,
+        "q75": 0.9405,
+        "max": 0.9999
+      },
+      "LOW_QUALITY": {
+        "mean": 0.6149,
+        "std": 0.2685,
+        "min": 0.0,
+        "q25": 0.4536,
+        "median": 0.6604,
+        "q75": 0.8292,
+        "max": 0.9986
+      },
+      "SEASONAL_ENVIRONMENTAL": {
+        "mean": 0.2675,
+        "std": 0.2587,
+        "min": 0.0,
+        "q25": 0.0,
+        "median": 0.2491,
+        "q75": 0.4224,
+        "max": 0.9635
+      },
+      "STABLE": {
+        "mean": 0.5972,
+        "std": 0.2789,
+        "min": 0.0,
+        "q25": 0.4093,
+        "median": 0.6522,
+        "q75": 0.8412,
+        "max": 0.9997
+      },
+      "STRUCTURAL_ACCELERATING": {
+        "mean": 0.4573,
+        "std": 0.3182,
+        "min": 0.0,
+        "q25": 0.1764,
+        "median": 0.4882,
+        "q75": 0.7226,
+        "max": 0.9997
+      },
+      "STRUCTURAL_MONOTONIC": {
+        "mean": 0.3816,
+        "std": 0.3165,
+        "min": 0.0,
+        "q25": 0.0491,
+        "median": 0.3606,
+        "q75": 0.6431,
+        "max": 0.9998
+      },
+      "TEMPORALLY_INCONSISTENT": {
+        "mean": 0.4668,
+        "std": 0.322,
+        "min": 0.0,
+        "q25": 0.1552,
+        "median": 0.5064,
+        "q75": 0.738,
+        "max": 0.999
+      }
+    }
+  }
+}

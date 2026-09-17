@@ -1,0 +1,205 @@
+[
+  {
+    "class": "STABLE",
+    "sample_id": "STRATA_SYN_STABLE_00147",
+    "structure_type": "StructureType.BRIDGE",
+    "criticality": "CriticalityLevel.MODERATE",
+    "characterization_state": "BASELINE",
+    "confidence": 0.7997,
+    "prototype_risk_index": 5.9,
+    "evidence_components": {
+      "measurement_quality": 0.7997,
+      "consensus_support": 0.1425,
+      "temporal_persistence": 0.0,
+      "trend_significance": 0.1774,
+      "acceleration_support": 0.0,
+      "environmental_suppression": 0.0,
+      "critical_zone_context": 1.0,
+      "baseline_deviation_mm": 0.26,
+      "baseline_z_score": 0.17
+    },
+    "supporting_factors": [
+      "Observed deformation remains within the nominal baseline stability envelope."
+    ],
+    "suppressing_factors": [
+      "Apparent acceleration is mathematically detectable but sequence remains within nominal baseline stability."
+    ],
+    "uncertainty_factors": [],
+    "explanation": "STRATA Risk Characterization: BASELINE\nAsset Context: BRIDGE (CONCRETE), Criticality: MODERATE\n\nPrimary Evidence: Multi-epoch InSAR observations remain within the nominal baseline stability envelope. No coherent non-baseline deformation trend is established.\n\nSupporting Evidence:\n  - Observed deformation remains within the nominal baseline stability envelope.\n\nSuppression & Attenuation Factors:\n  - Apparent acceleration is mathematically detectable but sequence remains within nominal baseline stability.\n\nDisclaimer: This assessment represents an analytical InSAR evidence characterization for inspection prioritization and does not provide an engineering sign-off or physical structural prognosis."
+  },
+  {
+    "class": "SEASONAL_ENVIRONMENTAL",
+    "sample_id": "STRATA_SYN_SEASONAL_ENVIRONMENTAL_00164",
+    "structure_type": "StructureType.DAM",
+    "criticality": "CriticalityLevel.HIGH",
+    "characterization_state": "ENVIRONMENTAL_PATTERN",
+    "confidence": 0.4504,
+    "prototype_risk_index": 16.7,
+    "evidence_components": {
+      "measurement_quality": 0.8024,
+      "consensus_support": 0.4504,
+      "temporal_persistence": 0.0,
+      "trend_significance": 0.1697,
+      "acceleration_support": 0.1831,
+      "environmental_suppression": 1.0,
+      "critical_zone_context": 1.0,
+      "baseline_deviation_mm": 1.31,
+      "baseline_z_score": 0.44
+    },
+    "supporting_factors": [],
+    "suppressing_factors": [
+      "Cyclical seasonal recurrence confirmed across multi-epoch baseline; temporal persistence is suppressed.",
+      "Infrastructure profile specifies expected seasonal deformation behavior."
+    ],
+    "uncertainty_factors": [],
+    "explanation": "STRATA Risk Characterization: ENVIRONMENTAL_PATTERN\nAsset Context: DAM (CONCRETE), Criticality: HIGH\n\nPrimary Evidence: Multi-epoch deformation displays recurring cyclical characteristics consistent with environmental or seasonal processes. Temporal accumulation is treated as non-structural evidence.\n\nSuppression & Attenuation Factors:\n  - Cyclical seasonal recurrence confirmed across multi-epoch baseline; temporal persistence is suppressed.\n  - Infrastructure profile specifies expected seasonal deformation behavior.\n\nDisclaimer: This assessment represents an analytical InSAR evidence characterization for inspection prioritization and does not provide an engineering sign-off or physical structural prognosis."
+  },
+  {
+    "class": "STRUCTURAL_MONOTONIC",
+    "sample_id": "STRATA_SYN_STRUCTURAL_MONOTONIC_00106",
+    "structure_type": "StructureType.BRIDGE",
+    "criticality": "CriticalityLevel.HIGH",
+    "characterization_state": "HIGH_ATTENTION",
+    "confidence": 0.658,
+    "prototype_risk_index": 91.0,
+    "evidence_components": {
+      "measurement_quality": 0.8016,
+      "consensus_support": 0.6181,
+      "temporal_persistence": 0.6289,
+      "trend_significance": 0.9302,
+      "acceleration_support": 0.2871,
+      "environmental_suppression": 0.0,
+      "critical_zone_context": 1.3,
+      "baseline_deviation_mm": -5.752,
+      "baseline_z_score": -5.75
+    },
+    "supporting_factors": [
+      "Multi-epoch structural persistence confirmed (persistence score: 0.63).",
+      "Observed linear trend rate (-9.30 mm/year) is significant.",
+      "Strong cross-model consensus agreement (score: 0.62).",
+      "Deformation deviates by -5.75 mm from historical baseline.",
+      "Standardized baseline deviation (|z| = 5.8) is statistically significant.",
+      "Apparent acceleration (-14.36 mm/year\u00b2) satisfies scientific temporal support criteria.",
+      "Observed deformation context overlaps configured critical zones (weight modifier: 1.30x).",
+      "Infrastructure criticality is designated as HIGH; contextual inspection priority elevated."
+    ],
+    "suppressing_factors": [],
+    "uncertainty_factors": [],
+    "explanation": "STRATA Risk Characterization: HIGH_ATTENTION\nAsset Context: BRIDGE (STEEL), Criticality: HIGH\n\nPrimary Evidence: Persistent, cross-model-supported deformation is confirmed in conjunction with significant baseline deviation or critical zone spatial context. Prompt engineering investigation is warranted.\n\nSupporting Evidence:\n  - Multi-epoch structural persistence confirmed (persistence score: 0.63).\n  - Observed linear trend rate (-9.30 mm/year) is significant.\n  - Strong cross-model consensus agreement (score: 0.62).\n  - Deformation deviates by -5.75 mm from historical baseline.\n  - Standardized baseline deviation (|z| = 5.8) is statistically significant.\n  - Apparent acceleration (-14.36 mm/year\u00b2) satisfies scientific temporal support criteria.\n  - Observed deformation context overlaps configured critical zones (weight modifier: 1.30x).\n  - Infrastructure criticality is designated as HIGH; contextual inspection priority elevated.\n\nDisclaimer: This assessment represents an analytical InSAR evidence characterization for inspection prioritization and does not provide an engineering sign-off or physical structural prognosis."
+  },
+  {
+    "class": "STRUCTURAL_ACCELERATING",
+    "sample_id": "STRATA_SYN_STRUCTURAL_ACCELERATING_00233",
+    "structure_type": "StructureType.RETAINING_STRUCTURE",
+    "criticality": "CriticalityLevel.HIGH",
+    "characterization_state": "MONITOR",
+    "confidence": 0.1434,
+    "prototype_risk_index": 28.6,
+    "evidence_components": {
+      "measurement_quality": 0.8217,
+      "consensus_support": 0.1434,
+      "temporal_persistence": 0.0,
+      "trend_significance": 0.356,
+      "acceleration_support": 0.0,
+      "environmental_suppression": 0.0,
+      "critical_zone_context": 1.275,
+      "baseline_deviation_mm": null,
+      "baseline_z_score": null
+    },
+    "supporting_factors": [],
+    "suppressing_factors": [
+      "Model disagreement reduces analytical confidence in current interpretation."
+    ],
+    "uncertainty_factors": [
+      "Cross-model disagreement between ML and physical consistency models.",
+      "Temporal status indicates active conflict or volatility across epochs."
+    ],
+    "explanation": "STRATA Risk Characterization: MONITOR\nAsset Context: RETAINING_STRUCTURE (CONCRETE), Criticality: HIGH\n\nPrimary Evidence: Observed displacement pattern exhibits moderate volatility, model conflict, or nascent persistence that warrants continued longitudinal observation.\n\nSuppression & Attenuation Factors:\n  - Model disagreement reduces analytical confidence in current interpretation.\n\nAnalytical Uncertainty & Observational Limitations:\n  - Cross-model disagreement between ML and physical consistency models.\n  - Temporal status indicates active conflict or volatility across epochs.\n\nDisclaimer: This assessment represents an analytical InSAR evidence characterization for inspection prioritization and does not provide an engineering sign-off or physical structural prognosis."
+  },
+  {
+    "class": "TEMPORALLY_INCONSISTENT",
+    "sample_id": "STRATA_SYN_TEMPORALLY_INCONSISTENT_00173",
+    "structure_type": "StructureType.TUNNEL",
+    "criticality": "CriticalityLevel.MODERATE",
+    "characterization_state": "MONITOR",
+    "confidence": 0.1507,
+    "prototype_risk_index": 31.3,
+    "evidence_components": {
+      "measurement_quality": 0.8097,
+      "consensus_support": 0.1507,
+      "temporal_persistence": 0.0,
+      "trend_significance": 0.6328,
+      "acceleration_support": 1.0,
+      "environmental_suppression": 0.0,
+      "critical_zone_context": 1.0,
+      "baseline_deviation_mm": null,
+      "baseline_z_score": null
+    },
+    "supporting_factors": [],
+    "suppressing_factors": [
+      "Model disagreement reduces analytical confidence in current interpretation."
+    ],
+    "uncertainty_factors": [
+      "Cross-model disagreement between ML and physical consistency models.",
+      "Temporal status indicates active conflict or volatility across epochs."
+    ],
+    "explanation": "STRATA Risk Characterization: MONITOR\nAsset Context: TUNNEL (CONCRETE), Criticality: MODERATE\n\nPrimary Evidence: Observed displacement pattern exhibits moderate volatility, model conflict, or nascent persistence that warrants continued longitudinal observation.\n\nSuppression & Attenuation Factors:\n  - Model disagreement reduces analytical confidence in current interpretation.\n\nAnalytical Uncertainty & Observational Limitations:\n  - Cross-model disagreement between ML and physical consistency models.\n  - Temporal status indicates active conflict or volatility across epochs.\n\nDisclaimer: This assessment represents an analytical InSAR evidence characterization for inspection prioritization and does not provide an engineering sign-off or physical structural prognosis."
+  },
+  {
+    "class": "ATMOSPHERIC_TRANSIENT",
+    "sample_id": "STRATA_SYN_ATMOSPHERIC_TRANSIENT_00298",
+    "structure_type": "StructureType.BUILDING",
+    "criticality": "CriticalityLevel.LOW",
+    "characterization_state": "MONITOR",
+    "confidence": 0.2158,
+    "prototype_risk_index": 35.0,
+    "evidence_components": {
+      "measurement_quality": 0.7897,
+      "consensus_support": 0.2158,
+      "temporal_persistence": 0.0,
+      "trend_significance": 1.0,
+      "acceleration_support": 0.0,
+      "environmental_suppression": 0.0,
+      "critical_zone_context": 1.0,
+      "baseline_deviation_mm": null,
+      "baseline_z_score": null
+    },
+    "supporting_factors": [],
+    "suppressing_factors": [
+      "Model disagreement reduces analytical confidence in current interpretation."
+    ],
+    "uncertainty_factors": [
+      "Cross-model disagreement between ML and physical consistency models.",
+      "Temporal status indicates active conflict or volatility across epochs."
+    ],
+    "explanation": "STRATA Risk Characterization: MONITOR\nAsset Context: BUILDING (MASONRY), Criticality: LOW\n\nPrimary Evidence: Observed displacement pattern exhibits moderate volatility, model conflict, or nascent persistence that warrants continued longitudinal observation.\n\nSuppression & Attenuation Factors:\n  - Model disagreement reduces analytical confidence in current interpretation.\n\nAnalytical Uncertainty & Observational Limitations:\n  - Cross-model disagreement between ML and physical consistency models.\n  - Temporal status indicates active conflict or volatility across epochs.\n\nDisclaimer: This assessment represents an analytical InSAR evidence characterization for inspection prioritization and does not provide an engineering sign-off or physical structural prognosis."
+  },
+  {
+    "class": "LOW_QUALITY",
+    "sample_id": "STRATA_SYN_LOW_QUALITY_00375",
+    "structure_type": "StructureType.EMBANKMENT",
+    "criticality": "CriticalityLevel.CRITICAL",
+    "characterization_state": "INSUFFICIENT_EVIDENCE",
+    "confidence": 0.35,
+    "prototype_risk_index": 4.2,
+    "evidence_components": {
+      "measurement_quality": 0.4156,
+      "consensus_support": 0.6157,
+      "temporal_persistence": 0.0,
+      "trend_significance": 0.7381,
+      "acceleration_support": 0.0,
+      "environmental_suppression": 0.0,
+      "critical_zone_context": 1.0,
+      "baseline_deviation_mm": null,
+      "baseline_z_score": null
+    },
+    "supporting_factors": [],
+    "suppressing_factors": [
+      "Interferometric coherence degradation suppresses structural characterization."
+    ],
+    "uncertainty_factors": [
+      "Low radar phase coherence across observation baseline."
+    ],
+    "explanation": "STRATA Risk Characterization: INSUFFICIENT_EVIDENCE\nAsset Context: EMBANKMENT (EARTH), Criticality: CRITICAL\n\nPrimary Evidence: Available interferometric measurements or temporal baseline span are insufficient to support a definitive structural characterization.\n\nSuppression & Attenuation Factors:\n  - Interferometric coherence degradation suppresses structural characterization.\n\nAnalytical Uncertainty & Observational Limitations:\n  - Low radar phase coherence across observation baseline.\n\nDisclaimer: This assessment represents an analytical InSAR evidence characterization for inspection prioritization and does not provide an engineering sign-off or physical structural prognosis."
+  }
+]

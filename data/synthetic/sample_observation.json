@@ -1,0 +1,64 @@
+{
+  "synthetic_benchmark_version": "1.0",
+  "disclaimer": "SYNTHETIC TEST DATASET - NOT REAL SATELLITE MEASUREMENTS. FOR BENCHMARKING ONLY.",
+  "infrastructure": {
+    "name": "Synthetic Arch Dam A-4",
+    "structure_type": "DAM",
+    "latitude": 36.0155,
+    "longitude": -114.7378,
+    "description": "Synthetic double-curvature arch dam reference target for InSAR pipeline validation"
+  },
+  "observations": [
+    {
+      "acquisition_timestamp": "2026-01-10T06:12:00Z",
+      "deformation_mm": -1.2,
+      "velocity_mm_per_year": -3.5,
+      "coherence": 0.82,
+      "phase_quality": 0.89,
+      "incidence_angle": 38.2,
+      "los_displacement_mm": -0.94,
+      "atmospheric_indicator": "CLEAR_STABLE",
+      "source": "SYNTHETIC_INSAR_S1",
+      "metadata": {
+        "pass": "DESCENDING",
+        "polarization": "VV",
+        "relative_orbit": 137,
+        "is_simulated": true
+      }
+    },
+    {
+      "acquisition_timestamp": "2026-01-22T06:12:00Z",
+      "deformation_mm": -2.8,
+      "velocity_mm_per_year": -4.1,
+      "coherence": 0.79,
+      "phase_quality": 0.84,
+      "incidence_angle": 38.2,
+      "los_displacement_mm": -2.20,
+      "atmospheric_indicator": "CLEAR_STABLE",
+      "source": "SYNTHETIC_INSAR_S1",
+      "metadata": {
+        "pass": "DESCENDING",
+        "polarization": "VV",
+        "relative_orbit": 137,
+        "is_simulated": true
+      }
+    },
+    {
+      "acquisition_timestamp": "2026-02-03T06:12:00Z",
+      "deformation_mm": -4.5,
+      "velocity_mm_per_year": -5.2,
+      "coherence": 0.75,
+      "phase_quality": 0.81,
+      "incidence_angle": 38.2,
+      "los_displacement_mm": -3.53,
+      "atmospheric_indicator": "MILD_TURBULENCE",
+      "source": "SYNTHETIC_INSAR_S1",
+      "metadata": {
+        "pass": "DESCENDING",
+        "polarization": "VV",
+        "relative_orbit": 137,
+        "is_simulated": true
+      }
+    }
+  ]
+}

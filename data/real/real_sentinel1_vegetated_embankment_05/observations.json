@@ -1,0 +1,512 @@
+[
+  {
+    "timestamp": "2020-06-01T05:20:00+00:00",
+    "displacement": 3.65,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.317,
+    "phase_quality": 0.295,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2020-06-13T05:20:00+00:00",
+    "displacement": 0.04,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.245,
+    "phase_quality": 0.33,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2020-06-25T05:20:00+00:00",
+    "displacement": 6.08,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.294,
+    "phase_quality": 0.279,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2020-07-07T05:20:00+00:00",
+    "displacement": -1.53,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.32,
+    "phase_quality": 0.356,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2020-07-31T05:20:00+00:00",
+    "displacement": 3.42,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.425,
+    "phase_quality": 0.252,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2020-09-05T05:20:00+00:00",
+    "displacement": -3.54,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.227,
+    "phase_quality": 0.238,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2020-09-29T05:20:00+00:00",
+    "displacement": 2.99,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.305,
+    "phase_quality": 0.183,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2020-11-16T05:20:00+00:00",
+    "displacement": 2.05,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.209,
+    "phase_quality": 0.2,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2021-01-03T05:20:00+00:00",
+    "displacement": 5.62,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.358,
+    "phase_quality": 0.292,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2021-02-08T05:20:00+00:00",
+    "displacement": -3.09,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.183,
+    "phase_quality": 0.415,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2021-03-04T05:20:00+00:00",
+    "displacement": -6.65,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.342,
+    "phase_quality": 0.176,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2021-04-09T05:20:00+00:00",
+    "displacement": 0.99,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.234,
+    "phase_quality": 0.258,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2021-04-21T05:20:00+00:00",
+    "displacement": 1.03,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.301,
+    "phase_quality": 0.351,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2021-06-08T05:20:00+00:00",
+    "displacement": -0.48,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.344,
+    "phase_quality": 0.323,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2021-06-20T05:20:00+00:00",
+    "displacement": 5.95,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.245,
+    "phase_quality": 0.162,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2021-07-26T05:20:00+00:00",
+    "displacement": -1.73,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.253,
+    "phase_quality": 0.216,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2021-08-07T05:20:00+00:00",
+    "displacement": -0.65,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.236,
+    "phase_quality": 0.347,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2021-09-12T05:20:00+00:00",
+    "displacement": 2.73,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.232,
+    "phase_quality": 0.286,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2021-10-30T05:20:00+00:00",
+    "displacement": 1.0,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.248,
+    "phase_quality": 0.332,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2021-11-23T05:20:00+00:00",
+    "displacement": 6.22,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.279,
+    "phase_quality": 0.35,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2021-12-17T05:20:00+00:00",
+    "displacement": -1.36,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.293,
+    "phase_quality": 0.365,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2022-01-10T05:20:00+00:00",
+    "displacement": 3.53,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.288,
+    "phase_quality": 0.118,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2022-02-27T05:20:00+00:00",
+    "displacement": 1.2,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.205,
+    "phase_quality": 0.336,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2022-04-16T05:20:00+00:00",
+    "displacement": 3.69,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.134,
+    "phase_quality": 0.284,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2022-06-03T05:20:00+00:00",
+    "displacement": 1.65,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.381,
+    "phase_quality": 0.107,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2022-07-09T05:20:00+00:00",
+    "displacement": 4.17,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.23,
+    "phase_quality": 0.326,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2022-08-14T05:20:00+00:00",
+    "displacement": -1.28,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.28,
+    "phase_quality": 0.35,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2022-08-26T05:20:00+00:00",
+    "displacement": -8.26,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.369,
+    "phase_quality": 0.4,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2022-10-13T05:20:00+00:00",
+    "displacement": 3.57,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.285,
+    "phase_quality": 0.217,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  },
+  {
+    "timestamp": "2022-10-25T05:20:00+00:00",
+    "displacement": -8.46,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.356,
+    "phase_quality": 0.306,
+    "incidence_angle": 36.8,
+    "flags": [
+      "LOW_COHERENCE_WARNING",
+      "TEMPORAL_DECORRELATION"
+    ],
+    "raw_metadata": {
+      "landcover": "HERBACEOUS_VEGETATION",
+      "snr_db": 3.2
+    }
+  }
+]

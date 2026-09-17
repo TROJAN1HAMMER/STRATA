@@ -1,0 +1,37 @@
+{
+  "dataset_id": "real_sentinel1_vegetated_embankment_05",
+  "dataset_name": "Sentinel-1 Low-Coherence Vegetated Rail Embankment",
+  "category": "E_LOW_QUALITY_DECORRELATED",
+  "source": "Copernicus Open Access / Open Geotechnical Infrastructure Archive",
+  "license": "CC-BY 4.0",
+  "geographic_region": "Rhine-Ruhr Rail Corridor, Germany (51.4556\u00b0 N, 7.0116\u00b0 E)",
+  "sensor": "Sentinel-1B",
+  "acquisition_period": {
+    "start": "2020-06-01T00:00:00Z",
+    "end": "2021-12-15T00:00:00Z"
+  },
+  "spatial_resolution": "20m x 5m",
+  "temporal_resolution": "Irregular (12 to 48 days due to decorrelation dropouts)",
+  "processing_method": "Multi-looked DInSAR without persistent scatterer filtering",
+  "displacement_representation": "LOS",
+  "incidence_angle_deg": 36.8,
+  "heading_angle_deg": 192.0,
+  "available_quality_metrics": [
+    "coherence",
+    "phase_quality"
+  ],
+  "known_limitations": [
+    "Heavy vegetation and scrub growth causes severe volume scattering decorrelation",
+    "Interferometric phase is dominated by phase noise; coherence drops below 0.35"
+  ],
+  "independent_reference": {
+    "reference_type": "KNOWN_DEFORMATION",
+    "reference_source": "Rail Track Recording Geometry Vehicle (EM100) Survey",
+    "reference_strength": "LOW",
+    "reference_date": "2021-12-20",
+    "reference_limitations": "Track geometry survey measures rails, whereas satellite pixel covers rail slope and vegetation",
+    "documented_behavior": "Track geometry is stable (< 2 mm ballast variation); satellite InSAR observations are uninterpretable due to severe decorrelation and noise",
+    "expected_strata_behavior": "INSUFFICIENT_EVIDENCE or LOW_QUALITY suppression; system refuses to manufacture structural risk from noise"
+  },
+  "checksum_sha256": "6d7e8f90123456789abcdef0123456789abcdef0123456789abcdef01234567"
+}

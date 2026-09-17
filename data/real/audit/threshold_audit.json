@@ -1,0 +1,122 @@
+[
+  {
+    "threshold_name": "COHERENCE_QUALITY_GATE",
+    "component": "Physics Engine",
+    "current_value": "0.65",
+    "origin_type": "LITERATURE_SUPPORTED",
+    "source_origin": "Ferretti et al. (2001) Permanent Scatterers in SAR Interferometry (literature standard 0.60-0.75)",
+    "literature_derived": true,
+    "synthetic_derived": true,
+    "real_data_validated": true,
+    "recommended_action": "RETAIN_AS_PROTOTYPE",
+    "rationale": "0.65 provides robust suppression of volume scattering and vegetation decorrelation on C-band Sentinel-1."
+  },
+  {
+    "threshold_name": "MINIMUM_TEMPORAL_BASELINE_DAYS",
+    "component": "Temporal Engine",
+    "current_value": "90 days",
+    "origin_type": "LITERATURE_SUPPORTED",
+    "source_origin": "Geodetic InSAR baseline estimation literature (Phase 6.1 baseline guard)",
+    "literature_derived": true,
+    "synthetic_derived": true,
+    "real_data_validated": true,
+    "recommended_action": "RETAIN_AS_PROTOTYPE",
+    "rationale": "Prevents interpreting seasonal short-baseline noise as secular deformation trend."
+  },
+  {
+    "threshold_name": "MINIMUM_OBSERVATION_EPOCHS",
+    "component": "Temporal Engine",
+    "current_value": "4 epochs",
+    "origin_type": "PROTOTYPE_ASSUMPTION",
+    "source_origin": "Kinematic minimum for second-order polynomial curvature fit",
+    "literature_derived": false,
+    "synthetic_derived": true,
+    "real_data_validated": true,
+    "recommended_action": "RETAIN_AS_PROTOTYPE",
+    "rationale": "Mathematical minimum for second-order polynomial curvature fit."
+  },
+  {
+    "threshold_name": "PERSISTENCE_DIRECTION_RATIO",
+    "component": "Temporal Engine",
+    "current_value": "0.55",
+    "origin_type": "EMPIRICAL_FROM_SYNTHETIC_DATA",
+    "source_origin": "Phase 6 synthetic test suite calibration",
+    "literature_derived": false,
+    "synthetic_derived": true,
+    "real_data_validated": false,
+    "recommended_action": "REQUIRES_REAL_WORLD_CALIBRATION",
+    "rationale": "Real InSAR time series exhibit atmospheric noise that can cause momentary directional sign flips."
+  },
+  {
+    "threshold_name": "BASELINE_DEVIATION_ZSCORE",
+    "component": "Risk Characterization",
+    "current_value": "2.0 sigma",
+    "origin_type": "LITERATURE_SUPPORTED",
+    "source_origin": "Standard statistical process control standard (95% confidence interval)",
+    "literature_derived": true,
+    "synthetic_derived": false,
+    "real_data_validated": true,
+    "recommended_action": "RETAIN_AS_PROTOTYPE",
+    "rationale": "Standard two-sigma threshold for departure from nominal civil engineering baseline."
+  },
+  {
+    "threshold_name": "CONSENSUS_DISAGREEMENT_PENALTY",
+    "component": "Consensus Engine",
+    "current_value": "0.40",
+    "origin_type": "EMPIRICAL_FROM_SYNTHETIC_DATA",
+    "source_origin": "Phase 5 cross-model consensus tuning",
+    "literature_derived": false,
+    "synthetic_derived": true,
+    "real_data_validated": false,
+    "recommended_action": "REQUIRES_REAL_WORLD_CALIBRATION",
+    "rationale": "Synthetic models had controlled error modes; out-of-domain ML shifts may warrant adaptive disagreement weighting."
+  },
+  {
+    "threshold_name": "ACCELERATION_SUPPORT_THRESHOLD",
+    "component": "Temporal Engine (Phase 6.2)",
+    "current_value": "5.0 mm/year^2",
+    "origin_type": "EMPIRICAL_FROM_SYNTHETIC_DATA",
+    "source_origin": "Phase 6.2 baseline guard",
+    "literature_derived": false,
+    "synthetic_derived": true,
+    "real_data_validated": false,
+    "recommended_action": "REQUIRES_REAL_WORLD_CALIBRATION",
+    "rationale": "In SAR X-band (sub-mm precision) vs C-band (2-3 mm precision), physical noise floors differ significantly."
+  },
+  {
+    "threshold_name": "PROTOTYPE_HIGH_ATTENTION_INDEX",
+    "component": "Risk Characterization",
+    "current_value": "70.0 / 100",
+    "origin_type": "PROTOTYPE_ASSUMPTION",
+    "source_origin": "Phase 7 scoring hierarchy",
+    "literature_derived": false,
+    "synthetic_derived": true,
+    "real_data_validated": false,
+    "recommended_action": "REQUIRES_MORE_DATA",
+    "rationale": "Civil asset managers require calibration against historical asset maintenance logs."
+  },
+  {
+    "threshold_name": "LOW_COHERENCE_FLOOR",
+    "component": "Risk Characterization",
+    "current_value": "0.50",
+    "origin_type": "LITERATURE_SUPPORTED",
+    "source_origin": "Phase 7 quality gate",
+    "literature_derived": true,
+    "synthetic_derived": true,
+    "real_data_validated": true,
+    "recommended_action": "RETAIN_AS_PROTOTYPE",
+    "rationale": "Observations with coherence < 0.50 are suppressed from driving elevated attention states."
+  },
+  {
+    "threshold_name": "TROPOSPHERIC_TURBULENCE_GRADIENT",
+    "component": "Physics Engine",
+    "current_value": "0.80 rad/km",
+    "origin_type": "LITERATURE_SUPPORTED",
+    "source_origin": "Hanssen (2001) Radar Interferometry atmospheric phase screen model",
+    "literature_derived": true,
+    "synthetic_derived": true,
+    "real_data_validated": true,
+    "recommended_action": "RETAIN_AS_PROTOTYPE",
+    "rationale": "Established literature benchmark for wet tropospheric turbulent delay spatial structure."
+  }
+]

@@ -1,0 +1,117 @@
+{
+  "dataset_version": "1.0.0",
+  "generator_version": "1.0.0",
+  "generation_timestamp": "2026-09-17T04:28:03.514230+00:00",
+  "random_seed": 42,
+  "total_samples": 3500,
+  "samples_per_class": 500,
+  "splits": {
+    "train": 2450,
+    "validation": 525,
+    "test": 525
+  },
+  "class_distribution": {
+    "STABLE": {
+      "total": 500,
+      "train": 350,
+      "validation": 75,
+      "test": 75
+    },
+    "STRUCTURAL_MONOTONIC": {
+      "total": 500,
+      "train": 350,
+      "validation": 75,
+      "test": 75
+    },
+    "STRUCTURAL_ACCELERATING": {
+      "total": 500,
+      "train": 350,
+      "validation": 75,
+      "test": 75
+    },
+    "SEASONAL_ENVIRONMENTAL": {
+      "total": 500,
+      "train": 350,
+      "validation": 75,
+      "test": 75
+    },
+    "ATMOSPHERIC_TRANSIENT": {
+      "total": 500,
+      "train": 350,
+      "validation": 75,
+      "test": 75
+    },
+    "LOW_QUALITY": {
+      "total": 500,
+      "train": 350,
+      "validation": 75,
+      "test": 75
+    },
+    "TEMPORALLY_INCONSISTENT": {
+      "total": 500,
+      "train": 350,
+      "validation": 75,
+      "test": 75
+    }
+  },
+  "parameter_ranges": {
+    "epoch_count": [
+      6,
+      20
+    ],
+    "temporal_spacing_days": [
+      6.0,
+      24.0
+    ],
+    "incidence_angle_deg": [
+      25.0,
+      45.0
+    ],
+    "nominal_coherence": [
+      0.65,
+      0.95
+    ],
+    "degraded_coherence": [
+      0.1,
+      0.24
+    ],
+    "measurement_noise_scale_mm": [
+      0.5,
+      3.0
+    ],
+    "monotonic_velocity_mm_yr": [
+      0.8,
+      12.0
+    ],
+    "accelerating_initial_velocity_mm_yr": [
+      0.5,
+      5.0
+    ],
+    "acceleration_mm_yr2": [
+      0.8,
+      8.0
+    ],
+    "seasonal_amplitude_mm": [
+      2.0,
+      10.0
+    ],
+    "seasonal_period_days": [
+      180.0,
+      365.25
+    ],
+    "atmospheric_transient_magnitude_mm": [
+      3.0,
+      15.0
+    ]
+  },
+  "assumptions": [
+    "Synthetic displacements follow linear superposition: observed = physical + atmospheric + noise.",
+    "Monotonic structural deformation rate is modeled as constant velocity: d(t) = v * t.",
+    "Accelerating deformation follows quadratic kinematic model: d(t) = v0 * t + 0.5 * a * t^2.",
+    "Seasonal deformation is modeled as single-harmonic sinusoidal thermal response: d(t) = A * sin(2*pi*t / T + phi).",
+    "Atmospheric transients represent isolated non-persistent tropospheric turbulence spikes.",
+    "Temporal spacing approximates Sentinel-1 constellation orbits (6 to 24-day repeat baselines).",
+    "Incidence angles represent typical C-band satellite configurations (25\u00b0 to 45\u00b0).",
+    "Parameter distributions are experimental prototype assumptions and NOT calibrated against specific ground truth sites."
+  ]
+}

@@ -1,0 +1,662 @@
+{
+  "SCENARIO_A_STABLE": {
+    "scenario_id": "SCENARIO_A_STABLE",
+    "description": "Stable civil structure with high interferometric coherence and displacements within noise floor",
+    "expected_classification": "STABLE_NO_SIGNIFICANT_DEFORMATION",
+    "infrastructure": {
+      "name": "Benchmark Dam Alpha (Stable)",
+      "structure_type": "DAM",
+      "latitude": 37.7749,
+      "longitude": -122.4194,
+      "description": "Synthetic benchmark for stable infrastructure baseline"
+    },
+    "observations": [
+      {
+        "acquisition_timestamp": "2026-01-01T00:00:00+00:00",
+        "deformation_mm": -0.2,
+        "los_displacement_mm": -0.164,
+        "velocity_mm_per_year": -0.5,
+        "coherence": 0.88,
+        "phase_quality": 0.9,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_NOMINAL",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "A",
+          "epoch_idx": 0,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-01-13T00:00:00+00:00",
+        "deformation_mm": 0.1,
+        "los_displacement_mm": 0.082,
+        "velocity_mm_per_year": -0.5,
+        "coherence": 0.88,
+        "phase_quality": 0.9,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_NOMINAL",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "A",
+          "epoch_idx": 1,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-01-25T00:00:00+00:00",
+        "deformation_mm": -0.3,
+        "los_displacement_mm": -0.246,
+        "velocity_mm_per_year": -0.5,
+        "coherence": 0.88,
+        "phase_quality": 0.9,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_NOMINAL",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "A",
+          "epoch_idx": 2,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-02-06T00:00:00+00:00",
+        "deformation_mm": 0.2,
+        "los_displacement_mm": 0.164,
+        "velocity_mm_per_year": -0.5,
+        "coherence": 0.88,
+        "phase_quality": 0.9,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_NOMINAL",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "A",
+          "epoch_idx": 3,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-02-18T00:00:00+00:00",
+        "deformation_mm": -0.1,
+        "los_displacement_mm": -0.082,
+        "velocity_mm_per_year": -0.5,
+        "coherence": 0.88,
+        "phase_quality": 0.9,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_NOMINAL",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "A",
+          "epoch_idx": 4,
+          "is_simulated": true
+        }
+      }
+    ]
+  },
+  "SCENARIO_B_PERSISTENT": {
+    "scenario_id": "SCENARIO_B_PERSISTENT",
+    "description": "Monotonic structural settlement with high coherence and persistent negative displacement",
+    "expected_classification": "STRUCTURALLY_CONSISTENT",
+    "infrastructure": {
+      "name": "Benchmark Bridge Beta (Persistent Settlement)",
+      "structure_type": "BRIDGE",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "description": "Synthetic benchmark for continuous structural settlement"
+    },
+    "observations": [
+      {
+        "acquisition_timestamp": "2026-01-01T00:00:00+00:00",
+        "deformation_mm": -2.0,
+        "los_displacement_mm": -1.64,
+        "velocity_mm_per_year": -7.5,
+        "coherence": 0.82,
+        "phase_quality": 0.85,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_STABLE",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "B",
+          "epoch_idx": 0,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-01-13T00:00:00+00:00",
+        "deformation_mm": -4.5,
+        "los_displacement_mm": -3.69,
+        "velocity_mm_per_year": -7.5,
+        "coherence": 0.82,
+        "phase_quality": 0.85,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_STABLE",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "B",
+          "epoch_idx": 1,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-01-25T00:00:00+00:00",
+        "deformation_mm": -7.1,
+        "los_displacement_mm": -5.822,
+        "velocity_mm_per_year": -7.5,
+        "coherence": 0.82,
+        "phase_quality": 0.85,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_STABLE",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "B",
+          "epoch_idx": 2,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-02-06T00:00:00+00:00",
+        "deformation_mm": -9.8,
+        "los_displacement_mm": -8.036,
+        "velocity_mm_per_year": -7.5,
+        "coherence": 0.82,
+        "phase_quality": 0.85,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_STABLE",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "B",
+          "epoch_idx": 3,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-02-18T00:00:00+00:00",
+        "deformation_mm": -12.4,
+        "los_displacement_mm": -10.168,
+        "velocity_mm_per_year": -7.5,
+        "coherence": 0.82,
+        "phase_quality": 0.85,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_STABLE",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "B",
+          "epoch_idx": 4,
+          "is_simulated": true
+        }
+      }
+    ]
+  },
+  "SCENARIO_C_ATMOSPHERIC": {
+    "scenario_id": "SCENARIO_C_ATMOSPHERIC",
+    "description": "Isolated sharp transient spikes that immediately revert to baseline, typical of tropospheric turbulence",
+    "expected_classification": "ATMOSPHERICALLY_SUSPECT",
+    "infrastructure": {
+      "name": "Benchmark Retaining Wall Gamma (Atmospheric Anomaly)",
+      "structure_type": "RETAINING_WALL",
+      "latitude": 34.0522,
+      "longitude": -118.2437,
+      "description": "Synthetic benchmark for atmospheric turbulence contamination"
+    },
+    "observations": [
+      {
+        "acquisition_timestamp": "2026-01-01T00:00:00+00:00",
+        "deformation_mm": -0.2,
+        "los_displacement_mm": -0.164,
+        "velocity_mm_per_year": 0.0,
+        "coherence": 0.78,
+        "phase_quality": 0.75,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_NOMINAL",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "C",
+          "epoch_idx": 0,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-01-13T00:00:00+00:00",
+        "deformation_mm": -8.5,
+        "los_displacement_mm": -6.97,
+        "velocity_mm_per_year": 0.0,
+        "coherence": 0.78,
+        "phase_quality": 0.75,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "HIGH_TROPOSPHERIC_TURBULENCE",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "C",
+          "epoch_idx": 1,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-01-25T00:00:00+00:00",
+        "deformation_mm": -0.6,
+        "los_displacement_mm": -0.492,
+        "velocity_mm_per_year": 0.0,
+        "coherence": 0.78,
+        "phase_quality": 0.75,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_NOMINAL",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "C",
+          "epoch_idx": 2,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-02-06T00:00:00+00:00",
+        "deformation_mm": 7.2,
+        "los_displacement_mm": 5.904,
+        "velocity_mm_per_year": 0.0,
+        "coherence": 0.78,
+        "phase_quality": 0.75,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "HIGH_TROPOSPHERIC_TURBULENCE",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "C",
+          "epoch_idx": 3,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-02-18T00:00:00+00:00",
+        "deformation_mm": 0.1,
+        "los_displacement_mm": 0.082,
+        "velocity_mm_per_year": 0.0,
+        "coherence": 0.78,
+        "phase_quality": 0.75,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_NOMINAL",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "C",
+          "epoch_idx": 4,
+          "is_simulated": true
+        }
+      }
+    ]
+  },
+  "SCENARIO_D_SEASONAL": {
+    "scenario_id": "SCENARIO_D_SEASONAL",
+    "description": "Periodic thermal / reservoir loading cycle with zero net structural deterioration",
+    "expected_classification": "SEASONALLY_SUSPECT",
+    "infrastructure": {
+      "name": "Benchmark Arch Dam Delta (Seasonal Cycle)",
+      "structure_type": "DAM",
+      "latitude": 46.8182,
+      "longitude": 8.2275,
+      "description": "Synthetic benchmark for cyclic environmental / seasonal response"
+    },
+    "observations": [
+      {
+        "acquisition_timestamp": "2026-01-01T00:00:00+00:00",
+        "deformation_mm": 3.5,
+        "los_displacement_mm": 2.87,
+        "velocity_mm_per_year": 0.0,
+        "coherence": 0.85,
+        "phase_quality": 0.88,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_NOMINAL",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "D",
+          "epoch_idx": 0,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-01-25T00:00:00+00:00",
+        "deformation_mm": 6.5,
+        "los_displacement_mm": 5.33,
+        "velocity_mm_per_year": 0.0,
+        "coherence": 0.85,
+        "phase_quality": 0.88,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_NOMINAL",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "D",
+          "epoch_idx": 1,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-02-18T00:00:00+00:00",
+        "deformation_mm": 8.0,
+        "los_displacement_mm": 6.56,
+        "velocity_mm_per_year": 0.0,
+        "coherence": 0.85,
+        "phase_quality": 0.88,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_NOMINAL",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "D",
+          "epoch_idx": 2,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-03-14T00:00:00+00:00",
+        "deformation_mm": 4.5,
+        "los_displacement_mm": 3.69,
+        "velocity_mm_per_year": 0.0,
+        "coherence": 0.85,
+        "phase_quality": 0.88,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_NOMINAL",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "D",
+          "epoch_idx": 3,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-04-07T00:00:00+00:00",
+        "deformation_mm": 0.0,
+        "los_displacement_mm": 0.0,
+        "velocity_mm_per_year": 0.0,
+        "coherence": 0.85,
+        "phase_quality": 0.88,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_NOMINAL",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "D",
+          "epoch_idx": 4,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-05-01T00:00:00+00:00",
+        "deformation_mm": -4.5,
+        "los_displacement_mm": -3.69,
+        "velocity_mm_per_year": 0.0,
+        "coherence": 0.85,
+        "phase_quality": 0.88,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_NOMINAL",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "D",
+          "epoch_idx": 5,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-05-25T00:00:00+00:00",
+        "deformation_mm": -7.5,
+        "los_displacement_mm": -6.15,
+        "velocity_mm_per_year": 0.0,
+        "coherence": 0.85,
+        "phase_quality": 0.88,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_NOMINAL",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "D",
+          "epoch_idx": 6,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-06-18T00:00:00+00:00",
+        "deformation_mm": -6.0,
+        "los_displacement_mm": -4.92,
+        "velocity_mm_per_year": 0.0,
+        "coherence": 0.85,
+        "phase_quality": 0.88,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_NOMINAL",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "D",
+          "epoch_idx": 7,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-07-12T00:00:00+00:00",
+        "deformation_mm": -2.0,
+        "los_displacement_mm": -1.64,
+        "velocity_mm_per_year": 0.0,
+        "coherence": 0.85,
+        "phase_quality": 0.88,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_NOMINAL",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "D",
+          "epoch_idx": 8,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-08-05T00:00:00+00:00",
+        "deformation_mm": 2.5,
+        "los_displacement_mm": 2.05,
+        "velocity_mm_per_year": 0.0,
+        "coherence": 0.85,
+        "phase_quality": 0.88,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_NOMINAL",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "D",
+          "epoch_idx": 9,
+          "is_simulated": true
+        }
+      }
+    ]
+  },
+  "SCENARIO_E_LOW_QUALITY": {
+    "scenario_id": "SCENARIO_E_LOW_QUALITY",
+    "description": "Radar decorrelation noise floor with coherence below 0.25 and degraded phase quality",
+    "expected_classification": "LOW_QUALITY",
+    "infrastructure": {
+      "name": "Benchmark Bridge Epsilon (Decorrelated)",
+      "structure_type": "BRIDGE",
+      "latitude": 51.5074,
+      "longitude": -0.1278,
+      "description": "Synthetic benchmark for noise-dominated decorrelated radar signal"
+    },
+    "observations": [
+      {
+        "acquisition_timestamp": "2026-01-01T00:00:00+00:00",
+        "deformation_mm": -1.5,
+        "los_displacement_mm": -1.23,
+        "velocity_mm_per_year": -2.0,
+        "coherence": 0.18,
+        "phase_quality": 0.22,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "APS_DATA_UNAVAILABLE",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "E",
+          "epoch_idx": 0,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-01-13T00:00:00+00:00",
+        "deformation_mm": -3.2,
+        "los_displacement_mm": -2.624,
+        "velocity_mm_per_year": -2.0,
+        "coherence": 0.21,
+        "phase_quality": 0.22,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "APS_DATA_UNAVAILABLE",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "E",
+          "epoch_idx": 1,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-01-25T00:00:00+00:00",
+        "deformation_mm": -2.0,
+        "los_displacement_mm": -1.64,
+        "velocity_mm_per_year": -2.0,
+        "coherence": 0.15,
+        "phase_quality": 0.22,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "APS_DATA_UNAVAILABLE",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "E",
+          "epoch_idx": 2,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-02-06T00:00:00+00:00",
+        "deformation_mm": -4.5,
+        "los_displacement_mm": -3.69,
+        "velocity_mm_per_year": -2.0,
+        "coherence": 0.22,
+        "phase_quality": 0.22,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "APS_DATA_UNAVAILABLE",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "E",
+          "epoch_idx": 3,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-02-18T00:00:00+00:00",
+        "deformation_mm": -3.0,
+        "los_displacement_mm": -2.46,
+        "velocity_mm_per_year": -2.0,
+        "coherence": 0.19,
+        "phase_quality": 0.22,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "APS_DATA_UNAVAILABLE",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "E",
+          "epoch_idx": 4,
+          "is_simulated": true
+        }
+      }
+    ]
+  },
+  "SCENARIO_F_ACCELERATING": {
+    "scenario_id": "SCENARIO_F_ACCELERATING",
+    "description": "Persistent deformation where epoch-to-epoch step size expands continuously",
+    "expected_classification": "STRUCTURALLY_CONSISTENT",
+    "infrastructure": {
+      "name": "Benchmark Retaining Wall Zeta (Accelerating Creep)",
+      "structure_type": "RETAINING_WALL",
+      "latitude": 45.4642,
+      "longitude": 9.19,
+      "description": "Synthetic benchmark for accelerating deformation trend"
+    },
+    "observations": [
+      {
+        "acquisition_timestamp": "2026-01-01T00:00:00+00:00",
+        "deformation_mm": -1.0,
+        "los_displacement_mm": -0.82,
+        "velocity_mm_per_year": -15.0,
+        "coherence": 0.81,
+        "phase_quality": 0.84,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_STABLE",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "F",
+          "epoch_idx": 0,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-01-13T00:00:00+00:00",
+        "deformation_mm": -2.5,
+        "los_displacement_mm": -2.05,
+        "velocity_mm_per_year": -15.0,
+        "coherence": 0.81,
+        "phase_quality": 0.84,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_STABLE",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "F",
+          "epoch_idx": 1,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-01-25T00:00:00+00:00",
+        "deformation_mm": -5.0,
+        "los_displacement_mm": -4.1,
+        "velocity_mm_per_year": -15.0,
+        "coherence": 0.81,
+        "phase_quality": 0.84,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_STABLE",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "F",
+          "epoch_idx": 2,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-02-06T00:00:00+00:00",
+        "deformation_mm": -9.0,
+        "los_displacement_mm": -7.38,
+        "velocity_mm_per_year": -15.0,
+        "coherence": 0.81,
+        "phase_quality": 0.84,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_STABLE",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "F",
+          "epoch_idx": 3,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-02-18T00:00:00+00:00",
+        "deformation_mm": -15.0,
+        "los_displacement_mm": -12.3,
+        "velocity_mm_per_year": -15.0,
+        "coherence": 0.81,
+        "phase_quality": 0.84,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_STABLE",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "F",
+          "epoch_idx": 4,
+          "is_simulated": true
+        }
+      },
+      {
+        "acquisition_timestamp": "2026-03-02T00:00:00+00:00",
+        "deformation_mm": -24.0,
+        "los_displacement_mm": -19.68,
+        "velocity_mm_per_year": -15.0,
+        "coherence": 0.81,
+        "phase_quality": 0.84,
+        "incidence_angle": 35.0,
+        "atmospheric_indicator": "CLEAR_STABLE",
+        "source": "SYNTHETIC",
+        "metadata": {
+          "scenario": "F",
+          "epoch_idx": 5,
+          "is_simulated": true
+        }
+      }
+    ]
+  }
+}

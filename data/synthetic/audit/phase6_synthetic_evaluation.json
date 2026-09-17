@@ -1,0 +1,155 @@
+[
+  {
+    "class": "STABLE",
+    "sample_id": "STRATA_SYN_STABLE_00147",
+    "expected_status": "Nominal baseline stability across epochs (BASELINE)",
+    "observed_status": "BASELINE",
+    "observation_count": 19,
+    "coverage_days": 247.48,
+    "mean_confidence": 0.2047,
+    "persistence_score": 0.0,
+    "trend_rate_mm_per_year": 1.7741,
+    "apparent_acceleration_mm_per_year2": -36.1583,
+    "trend_acceleration_mm_per_year2": -36.1583,
+    "acceleration_supported": false,
+    "acceleration_support_reason": "Apparent acceleration is mathematically detectable, but the sequence remains within the nominal baseline stability envelope and is not treated as supported deformation acceleration.",
+    "state_transitions": [
+      "INSUFFICIENT_HISTORY",
+      "CONFLICTED",
+      "BASELINE"
+    ],
+    "explanation": "Consistent nominal baseline stability observed across 19 epochs over 247.5 days. Observed linear deformation trend rate is estimated at 1.77 mm/year. Apparent acceleration is mathematically detectable (-36.16 mm/year\u00b2), but the sequence remains within the nominal baseline stability envelope and is not treated as supported deformation acceleration. Mean cross-model analytical confidence across the baseline is 20.5%."
+  },
+  {
+    "class": "SEASONAL_ENVIRONMENTAL",
+    "sample_id": "STRATA_SYN_SEASONAL_ENVIRONMENTAL_00164",
+    "expected_status": "Recurring cyclical environmental fluctuation without structural persistence (ENVIRONMENTAL_PATTERN)",
+    "observed_status": "ENVIRONMENTAL_PATTERN",
+    "observation_count": 19,
+    "coverage_days": 409.92,
+    "mean_confidence": 0.3752,
+    "persistence_score": 0.0,
+    "trend_rate_mm_per_year": 1.697,
+    "apparent_acceleration_mm_per_year2": -9.1555,
+    "trend_acceleration_mm_per_year2": -9.1555,
+    "acceleration_supported": true,
+    "acceleration_support_reason": "Acceleration evidence is supported across 409.9 days (19 epochs, mean coherence 0.80) with consistent deformation-rate change.",
+    "state_transitions": [
+      "INSUFFICIENT_HISTORY",
+      "CONFLICTED",
+      "BASELINE",
+      "EMERGING",
+      "CONFLICTED",
+      "ENVIRONMENTAL_PATTERN"
+    ],
+    "explanation": "The observed deformation pattern is recurring and seasonally structured; temporal accumulation is therefore treated as environmental evidence rather than structural persistence. Observed linear deformation trend rate is estimated at 1.70 mm/year. Apparent deformation-rate change of -9.16 mm/year\u00b2 is supported by the temporal baseline. Mean cross-model analytical confidence across the baseline is 37.5%."
+  },
+  {
+    "class": "STRUCTURAL_MONOTONIC",
+    "sample_id": "STRATA_SYN_STRUCTURAL_MONOTONIC_00106",
+    "expected_status": "Persistent deformation candidate accumulating persistence (PERSISTENT / EMERGING)",
+    "observed_status": "PERSISTENT",
+    "observation_count": 10,
+    "coverage_days": 198.0,
+    "mean_confidence": 0.4736,
+    "persistence_score": 0.6289,
+    "trend_rate_mm_per_year": -9.3023,
+    "apparent_acceleration_mm_per_year2": -14.357,
+    "trend_acceleration_mm_per_year2": -14.357,
+    "acceleration_supported": true,
+    "acceleration_support_reason": "Acceleration evidence is supported across 198.0 days (10 epochs, mean coherence 0.80) with consistent deformation-rate change.",
+    "state_transitions": [
+      "INSUFFICIENT_HISTORY",
+      "CONFLICTED",
+      "BASELINE",
+      "EMERGING",
+      "PERSISTENT"
+    ],
+    "explanation": "Persistent multi-epoch deformation candidate pattern identified across 10 epochs (persistence score: 0.63) with consistent cross-model support. Observed linear deformation trend rate is estimated at -9.30 mm/year. Apparent deformation-rate change of -14.36 mm/year\u00b2 is supported by the temporal baseline. Mean cross-model analytical confidence across the baseline is 47.4%."
+  },
+  {
+    "class": "STRUCTURAL_ACCELERATING",
+    "sample_id": "STRATA_SYN_STRUCTURAL_ACCELERATING_00233",
+    "expected_status": "Persistent/accelerating deformation candidate with negative rate (PERSISTENT / EMERGING)",
+    "observed_status": "CONFLICTED",
+    "observation_count": 8,
+    "coverage_days": 49.13,
+    "mean_confidence": 0.1722,
+    "persistence_score": 0.0,
+    "trend_rate_mm_per_year": 3.56,
+    "apparent_acceleration_mm_per_year2": 1506.4453,
+    "trend_acceleration_mm_per_year2": 1506.4453,
+    "acceleration_supported": false,
+    "acceleration_support_reason": "Temporal baseline (49.1 days) is below prototype threshold (>= 90.0 days); short baselines magnify annualization error.",
+    "state_transitions": [
+      "INSUFFICIENT_HISTORY",
+      "CONFLICTED"
+    ],
+    "explanation": "Material model disagreement across recent observations reduces analytical confidence in the current interpretation. Observed linear deformation trend rate is estimated at 3.56 mm/year. A numerical acceleration was calculated (1506.45 mm/year\u00b2), but the available temporal coverage is insufficient to treat it as supported acceleration evidence. Mean cross-model analytical confidence across the baseline is 17.2%."
+  },
+  {
+    "class": "TEMPORALLY_INCONSISTENT",
+    "sample_id": "STRATA_SYN_TEMPORALLY_INCONSISTENT_00173",
+    "expected_status": "High temporal volatility or conflict across epochs (CONFLICTED / LOW_QUALITY)",
+    "observed_status": "CONFLICTED",
+    "observation_count": 20,
+    "coverage_days": 196.29,
+    "mean_confidence": 0.2198,
+    "persistence_score": 0.0,
+    "trend_rate_mm_per_year": 6.3277,
+    "apparent_acceleration_mm_per_year2": -125.3645,
+    "trend_acceleration_mm_per_year2": -125.3645,
+    "acceleration_supported": true,
+    "acceleration_support_reason": "Acceleration evidence is supported across 196.3 days (20 epochs, mean coherence 0.82) with consistent deformation-rate change.",
+    "state_transitions": [
+      "INSUFFICIENT_HISTORY",
+      "CONFLICTED",
+      "BASELINE",
+      "CONFLICTED",
+      "BASELINE",
+      "CONFLICTED"
+    ],
+    "explanation": "Material model disagreement across recent observations reduces analytical confidence in the current interpretation. Observed linear deformation trend rate is estimated at 6.33 mm/year. Apparent deformation-rate change of -125.36 mm/year\u00b2 is supported by the temporal baseline. Mean cross-model analytical confidence across the baseline is 22.0%."
+  },
+  {
+    "class": "ATMOSPHERIC_TRANSIENT",
+    "sample_id": "STRATA_SYN_ATMOSPHERIC_TRANSIENT_00298",
+    "expected_status": "Transient phase delay anomaly resolving to baseline (ATMOSPHERIC_EVENT / BASELINE)",
+    "observed_status": "CONFLICTED",
+    "observation_count": 7,
+    "coverage_days": 73.32,
+    "mean_confidence": 0.2169,
+    "persistence_score": 0.0,
+    "trend_rate_mm_per_year": -18.8147,
+    "apparent_acceleration_mm_per_year2": -169.562,
+    "trend_acceleration_mm_per_year2": -169.562,
+    "acceleration_supported": false,
+    "acceleration_support_reason": "Temporal baseline (73.3 days) is below prototype threshold (>= 90.0 days); short baselines magnify annualization error.",
+    "state_transitions": [
+      "INSUFFICIENT_HISTORY",
+      "CONFLICTED"
+    ],
+    "explanation": "Material model disagreement across recent observations reduces analytical confidence in the current interpretation. Observed linear deformation trend rate is estimated at -18.81 mm/year. A numerical acceleration was calculated (-169.56 mm/year\u00b2), but the available temporal coverage is insufficient to treat it as supported acceleration evidence. Mean cross-model analytical confidence across the baseline is 21.7%."
+  },
+  {
+    "class": "LOW_QUALITY",
+    "sample_id": "STRATA_SYN_LOW_QUALITY_00375",
+    "expected_status": "Severe interferometric degradation suppressing confidence (LOW_QUALITY)",
+    "observed_status": "LOW_QUALITY",
+    "observation_count": 14,
+    "coverage_days": 186.95,
+    "mean_confidence": 0.3071,
+    "persistence_score": 0.0,
+    "trend_rate_mm_per_year": -7.381,
+    "apparent_acceleration_mm_per_year2": -8.9973,
+    "trend_acceleration_mm_per_year2": -8.9973,
+    "acceleration_supported": false,
+    "acceleration_support_reason": "Mean interferometric coherence (0.16) is below prototype quality threshold (>= 0.65).",
+    "state_transitions": [
+      "INSUFFICIENT_HISTORY",
+      "CONFLICTED",
+      "LOW_QUALITY"
+    ],
+    "explanation": "Interferometric measurement quality is degraded by low coherence, restricting reliable temporal inference. Observed linear deformation trend rate is estimated at -7.38 mm/year. A numerical acceleration was calculated (-9.00 mm/year\u00b2), but the available temporal coverage is insufficient to treat it as supported acceleration evidence. Mean cross-model analytical confidence across the baseline is 30.7%."
+  }
+]

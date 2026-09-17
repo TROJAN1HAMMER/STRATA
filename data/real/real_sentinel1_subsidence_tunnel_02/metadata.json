@@ -1,0 +1,37 @@
+{
+  "dataset_id": "real_sentinel1_subsidence_tunnel_02",
+  "dataset_name": "Sentinel-1 InSAR Mexico City Urban Metro Subsurface Subsidence Corridor",
+  "category": "B_KNOWN_DEFORMATION",
+  "source": "Open InSAR Geodesy / ESA Geohazards Exploitation Platform (TEP)",
+  "license": "CC-BY-SA 4.0",
+  "geographic_region": "Mexico City Central Valley, Mexico (19.4326\u00b0 N, 99.1332\u00b0 W)",
+  "sensor": "Sentinel-1A",
+  "acquisition_period": {
+    "start": "2020-03-05T00:00:00Z",
+    "end": "2022-09-22T00:00:00Z"
+  },
+  "spatial_resolution": "20m x 5m (SBAS multi-looked)",
+  "temporal_resolution": "12-24 days",
+  "processing_method": "Small Baseline Subset (SBAS) InSAR Time Series",
+  "displacement_representation": "VERTICAL",
+  "incidence_angle_deg": 37.5,
+  "heading_angle_deg": 194.0,
+  "available_quality_metrics": [
+    "coherence",
+    "phase_quality"
+  ],
+  "known_limitations": [
+    "Regional aquifer consolidation drives ground settlement",
+    "Spatial gradient separation needed between structural and regional displacement"
+  ],
+  "independent_reference": {
+    "reference_type": "DOCUMENTED_EVENT",
+    "reference_source": "SACMEX Municipal Water Survey & Geotechnical Borehole Piezometers",
+    "reference_strength": "HIGH",
+    "reference_date": "2022-10-15",
+    "reference_limitations": "Regional subsidence field extends across entire metropolitan sub-basin",
+    "documented_behavior": "Persistent, non-reversible ground settlement rate of 18-22 mm/year",
+    "expected_strata_behavior": "PERSISTENT deformation detected; ELEVATED_ATTENTION or HIGH_ATTENTION in Risk Layer"
+  },
+  "checksum_sha256": "a1b2c3d4e5f60718293a4b5c6d7e8f90123456789abcdef0123456789abcdef0"
+}

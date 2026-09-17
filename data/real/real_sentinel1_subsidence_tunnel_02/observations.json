@@ -1,0 +1,834 @@
+[
+  {
+    "timestamp": "2020-03-05T12:10:00+00:00",
+    "displacement": -0.43,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.774,
+    "phase_quality": 0.92,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2020-03-17T12:10:00+00:00",
+    "displacement": -1.01,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.846,
+    "phase_quality": 0.828,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2020-04-10T12:10:00+00:00",
+    "displacement": -1.81,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.831,
+    "phase_quality": 0.798,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2020-04-22T12:10:00+00:00",
+    "displacement": -3.04,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.82,
+    "phase_quality": 0.824,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2020-05-04T12:10:00+00:00",
+    "displacement": -4.07,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.811,
+    "phase_quality": 0.842,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2020-05-16T12:10:00+00:00",
+    "displacement": -2.61,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.757,
+    "phase_quality": 0.771,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2020-05-28T12:10:00+00:00",
+    "displacement": -3.7,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.812,
+    "phase_quality": 0.827,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2020-06-21T12:10:00+00:00",
+    "displacement": -4.69,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.759,
+    "phase_quality": 0.743,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2020-07-15T12:10:00+00:00",
+    "displacement": -7.6,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.82,
+    "phase_quality": 0.765,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2020-07-27T12:10:00+00:00",
+    "displacement": -7.3,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.846,
+    "phase_quality": 0.812,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2020-08-20T12:10:00+00:00",
+    "displacement": -7.82,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.84,
+    "phase_quality": 0.777,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2020-09-13T12:10:00+00:00",
+    "displacement": -9.68,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.763,
+    "phase_quality": 0.799,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2020-09-25T12:10:00+00:00",
+    "displacement": -11.38,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.807,
+    "phase_quality": 0.814,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2020-10-19T12:10:00+00:00",
+    "displacement": -12.86,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.842,
+    "phase_quality": 0.771,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2020-10-31T12:10:00+00:00",
+    "displacement": -14.26,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.791,
+    "phase_quality": 0.772,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2020-11-24T12:10:00+00:00",
+    "displacement": -12.59,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.788,
+    "phase_quality": 0.805,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2020-12-06T12:10:00+00:00",
+    "displacement": -13.72,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.816,
+    "phase_quality": 0.734,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2020-12-18T12:10:00+00:00",
+    "displacement": -15.5,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.803,
+    "phase_quality": 0.789,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2021-01-11T12:10:00+00:00",
+    "displacement": -16.3,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.7,
+    "phase_quality": 0.817,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2021-01-23T12:10:00+00:00",
+    "displacement": -17.54,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.82,
+    "phase_quality": 0.795,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2021-02-16T12:10:00+00:00",
+    "displacement": -19.88,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.825,
+    "phase_quality": 0.89,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2021-03-12T12:10:00+00:00",
+    "displacement": -18.21,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.78,
+    "phase_quality": 0.826,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2021-04-05T12:10:00+00:00",
+    "displacement": -23.49,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.734,
+    "phase_quality": 0.778,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2021-04-29T12:10:00+00:00",
+    "displacement": -22.05,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.889,
+    "phase_quality": 0.873,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2021-05-23T12:10:00+00:00",
+    "displacement": -24.18,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.801,
+    "phase_quality": 0.721,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2021-06-16T12:10:00+00:00",
+    "displacement": -24.86,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.791,
+    "phase_quality": 0.851,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2021-06-28T12:10:00+00:00",
+    "displacement": -24.22,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.795,
+    "phase_quality": 0.844,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2021-07-22T12:10:00+00:00",
+    "displacement": -27.18,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.834,
+    "phase_quality": 0.822,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2021-08-15T12:10:00+00:00",
+    "displacement": -28.26,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.796,
+    "phase_quality": 0.774,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2021-08-27T12:10:00+00:00",
+    "displacement": -28.75,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.828,
+    "phase_quality": 0.794,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2021-09-20T12:10:00+00:00",
+    "displacement": -29.04,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.759,
+    "phase_quality": 0.843,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2021-10-02T12:10:00+00:00",
+    "displacement": -30.08,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.806,
+    "phase_quality": 0.882,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2021-10-14T12:10:00+00:00",
+    "displacement": -31.27,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.83,
+    "phase_quality": 0.74,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2021-11-07T12:10:00+00:00",
+    "displacement": -31.75,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.72,
+    "phase_quality": 0.804,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2021-11-19T12:10:00+00:00",
+    "displacement": -32.07,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.835,
+    "phase_quality": 0.779,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2021-12-13T12:10:00+00:00",
+    "displacement": -32.94,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.793,
+    "phase_quality": 0.863,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2021-12-25T12:10:00+00:00",
+    "displacement": -33.35,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.777,
+    "phase_quality": 0.812,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2022-01-18T12:10:00+00:00",
+    "displacement": -34.83,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.787,
+    "phase_quality": 0.756,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2022-01-30T12:10:00+00:00",
+    "displacement": -36.57,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.868,
+    "phase_quality": 0.892,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2022-02-11T12:10:00+00:00",
+    "displacement": -37.44,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.859,
+    "phase_quality": 0.799,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2022-02-23T12:10:00+00:00",
+    "displacement": -35.95,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.8,
+    "phase_quality": 0.767,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2022-03-07T12:10:00+00:00",
+    "displacement": -39.39,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.7,
+    "phase_quality": 0.817,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2022-03-19T12:10:00+00:00",
+    "displacement": -37.41,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.812,
+    "phase_quality": 0.79,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2022-03-31T12:10:00+00:00",
+    "displacement": -39.74,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.878,
+    "phase_quality": 0.797,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2022-04-24T12:10:00+00:00",
+    "displacement": -41.02,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.788,
+    "phase_quality": 0.677,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2022-05-06T12:10:00+00:00",
+    "displacement": -40.96,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.786,
+    "phase_quality": 0.847,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2022-05-18T12:10:00+00:00",
+    "displacement": -42.52,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.742,
+    "phase_quality": 0.891,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2022-05-30T12:10:00+00:00",
+    "displacement": -42.71,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.842,
+    "phase_quality": 0.908,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2022-06-11T12:10:00+00:00",
+    "displacement": -43.38,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.794,
+    "phase_quality": 0.832,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2022-07-05T12:10:00+00:00",
+    "displacement": -43.56,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.807,
+    "phase_quality": 0.794,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2022-07-29T12:10:00+00:00",
+    "displacement": -45.0,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.772,
+    "phase_quality": 0.908,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  },
+  {
+    "timestamp": "2022-08-22T12:10:00+00:00",
+    "displacement": -47.52,
+    "displacement_unit": "mm",
+    "displacement_type": "VERTICAL",
+    "coherence": 0.731,
+    "phase_quality": 0.718,
+    "incidence_angle": 37.5,
+    "flags": [
+      "SBAS_VERTICAL_INVERSION"
+    ],
+    "raw_metadata": {
+      "track": 45,
+      "interferograms_used": 142
+    }
+  }
+]

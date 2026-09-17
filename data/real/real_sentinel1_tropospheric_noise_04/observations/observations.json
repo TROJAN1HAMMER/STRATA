@@ -1,0 +1,482 @@
+[
+  {
+    "timestamp": "2021-04-01T17:30:00+00:00",
+    "displacement": 1.29,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.851,
+    "phase_quality": 0.864,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2021-04-13T17:30:00+00:00",
+    "displacement": 1.51,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.723,
+    "phase_quality": 0.772,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2021-04-25T17:30:00+00:00",
+    "displacement": -0.74,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.868,
+    "phase_quality": 0.834,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2021-05-01T17:30:00+00:00",
+    "displacement": -0.34,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.813,
+    "phase_quality": 0.809,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2021-05-19T17:30:00+00:00",
+    "displacement": 0.27,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.855,
+    "phase_quality": 0.876,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2021-06-06T17:30:00+00:00",
+    "displacement": 0.02,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.812,
+    "phase_quality": 0.913,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2021-06-18T17:30:00+00:00",
+    "displacement": 0.06,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.852,
+    "phase_quality": 0.829,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2021-06-24T17:30:00+00:00",
+    "displacement": 0.4,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.808,
+    "phase_quality": 0.748,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2021-07-06T17:30:00+00:00",
+    "displacement": -0.37,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.825,
+    "phase_quality": 0.847,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2021-07-12T17:30:00+00:00",
+    "displacement": -0.97,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.891,
+    "phase_quality": 0.765,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2021-07-24T17:30:00+00:00",
+    "displacement": 0.29,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.773,
+    "phase_quality": 0.873,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2021-08-05T17:30:00+00:00",
+    "displacement": 0.68,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.92,
+    "phase_quality": 0.868,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2021-08-23T17:30:00+00:00",
+    "displacement": 0.67,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.92,
+    "phase_quality": 0.833,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2021-09-04T17:30:00+00:00",
+    "displacement": 0.2,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.805,
+    "phase_quality": 0.822,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2021-09-22T17:30:00+00:00",
+    "displacement": 1.18,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.853,
+    "phase_quality": 0.801,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2021-10-04T17:30:00+00:00",
+    "displacement": -0.28,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.885,
+    "phase_quality": 0.807,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2021-10-22T17:30:00+00:00",
+    "displacement": 0.44,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.83,
+    "phase_quality": 0.833,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2021-10-28T17:30:00+00:00",
+    "displacement": 0.28,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.796,
+    "phase_quality": 0.787,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2021-11-03T17:30:00+00:00",
+    "displacement": -0.04,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.893,
+    "phase_quality": 0.848,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2021-11-15T17:30:00+00:00",
+    "displacement": 0.15,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.825,
+    "phase_quality": 0.81,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2021-11-27T17:30:00+00:00",
+    "displacement": -0.64,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.803,
+    "phase_quality": 0.862,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2021-12-09T17:30:00+00:00",
+    "displacement": 0.22,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.84,
+    "phase_quality": 0.863,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2021-12-21T17:30:00+00:00",
+    "displacement": -1.01,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.829,
+    "phase_quality": 0.905,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2022-01-08T17:30:00+00:00",
+    "displacement": 0.26,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.787,
+    "phase_quality": 0.844,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2022-01-20T17:30:00+00:00",
+    "displacement": 0.39,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.801,
+    "phase_quality": 0.846,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2022-02-01T17:30:00+00:00",
+    "displacement": 1.04,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.869,
+    "phase_quality": 0.789,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2022-02-19T17:30:00+00:00",
+    "displacement": -0.21,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.826,
+    "phase_quality": 0.811,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2022-03-03T17:30:00+00:00",
+    "displacement": -0.27,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.862,
+    "phase_quality": 0.772,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2022-03-15T17:30:00+00:00",
+    "displacement": 0.56,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.827,
+    "phase_quality": 0.824,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2022-03-27T17:30:00+00:00",
+    "displacement": -0.14,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.852,
+    "phase_quality": 0.92,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2022-04-08T17:30:00+00:00",
+    "displacement": -0.63,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.827,
+    "phase_quality": 0.803,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  },
+  {
+    "timestamp": "2022-04-14T17:30:00+00:00",
+    "displacement": 0.45,
+    "displacement_unit": "mm",
+    "displacement_type": "LOS",
+    "coherence": 0.862,
+    "phase_quality": 0.868,
+    "incidence_angle": 41.0,
+    "atmospheric_indicator": "NOMINAL",
+    "flags": [],
+    "raw_metadata": {
+      "weather_station": "GENOA_SEAPORT",
+      "rh_percent": 62
+    }
+  }
+]
