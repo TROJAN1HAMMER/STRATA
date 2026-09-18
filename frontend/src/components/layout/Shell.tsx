@@ -9,6 +9,7 @@ import {
   Sliders,
   Radio,
   FileCheck2,
+  FlaskConical,
 } from 'lucide-react'
 import type { ViewTab } from '../../types'
 
@@ -36,6 +37,7 @@ export const Shell: React.FC<ShellProps> = ({
     { id: 'infrastructure' as ViewTab, label: 'Infrastructure Assets', icon: Layers },
     { id: 'temporal' as ViewTab, label: 'Temporal History', icon: Clock },
     { id: 'chronology' as ViewTab, label: 'Evidence Chronology', icon: ShieldCheck },
+    { id: 'simulation' as ViewTab, label: 'Simulation Lab', icon: FlaskConical },
     { id: 'demo' as ViewTab, label: 'Demo Mode (Curated)', icon: Play, highlight: true },
   ]
 

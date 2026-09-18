@@ -241,6 +241,7 @@ export type ViewTab =
   | 'detail'
   | 'temporal'
   | 'chronology'
+  | 'simulation'
   | 'demo'
   | 'about'
 

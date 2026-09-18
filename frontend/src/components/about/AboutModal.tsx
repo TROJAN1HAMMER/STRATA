@@ -1,12 +1,13 @@
 import React from 'react'
-import { X, CheckCircle2, AlertTriangle } from 'lucide-react'
+import { X, CheckCircle2, AlertTriangle, FlaskConical } from 'lucide-react'
 
 interface AboutModalProps {
   isOpen: boolean
   onClose: () => void
+  onNavigateSimulation?: () => void
 }
 
-export const AboutModal: React.FC<AboutModalProps> = ({ isOpen, onClose }) => {
+export const AboutModal: React.FC<AboutModalProps> = ({ isOpen, onClose, onNavigateSimulation }) => {
   if (!isOpen) return null
 
   const versionMatrix = [
@@ -164,6 +165,41 @@ export const AboutModal: React.FC<AboutModalProps> = ({ isOpen, onClose }) => {
               </table>
             </div>
           </div>
+
+          {/* SIMULATION LAB ACTION */}
+          {onNavigateSimulation && (
+            <div
+              style={{
+                backgroundColor: 'rgba(56, 189, 248, 0.08)',
+                border: '1px solid rgba(56, 189, 248, 0.25)',
+                borderRadius: '6px',
+                padding: '0.85rem 1rem',
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center',
+              }}
+            >
+              <div>
+                <div style={{ fontWeight: 600, fontSize: '0.85rem', color: 'var(--text-primary)' }}>
+                  Learn InSAR &amp; STRATA Principles
+                </div>
+                <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>
+                  Explore interactive simulations of radar geometry, rain loading, and consensus conflict.
+                </div>
+              </div>
+              <button
+                onClick={() => {
+                  onClose()
+                  onNavigateSimulation()
+                }}
+                className="btn btn-primary btn-sm"
+                style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}
+              >
+                <FlaskConical size={14} />
+                <span>Simulation Lab</span>
+              </button>
+            </div>
+          )}
 
           {/* SCIENTIFIC LEGAL DISCLAIMER */}
           <div className="strata-disclaimer">

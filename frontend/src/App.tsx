@@ -5,6 +5,7 @@ import { InfrastructureTable } from './components/infrastructure/InfrastructureT
 import { InfrastructureDetailView } from './components/detail/InfrastructureDetailView'
 import { ChronologyView } from './components/chronology/ChronologyView'
 import { DemoModeView } from './components/demo/DemoModeView'
+import { SimulationLab } from './components/simulation/SimulationLab'
 import { PipelineExecutionModal } from './components/analysis/PipelineExecutionModal'
 import { AboutModal } from './components/about/AboutModal'
 
@@ -168,7 +169,12 @@ export const App: React.FC = () => {
         <ChronologyView records={chronologyRecords} />
       )}
 
-      {/* 6. CURATED PRESENTATION DEMO MODE */}
+      {/* 6. INTERACTIVE SIMULATION & EXPLAINABILITY LAB */}
+      {currentTab === 'simulation' && (
+        <SimulationLab />
+      )}
+
+      {/* 7. CURATED PRESENTATION DEMO MODE */}
       {currentTab === 'demo' && (
         <DemoModeView
           onSelectScenarioForInspection={handleSelectScenarioForInspection}
@@ -188,6 +194,10 @@ export const App: React.FC = () => {
       <AboutModal
         isOpen={isAboutOpen}
         onClose={() => setIsAboutOpen(false)}
+        onNavigateSimulation={() => {
+          setIsDemoMode(false)
+          setCurrentTab('simulation')
+        }}
       />
     </Shell>
   )
